@@ -1,0 +1,20 @@
+name: linc
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - transformers
+  - accelerate
+  - datasets
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - tqdm
+  - nltk
+  - pip
+  - pip:
+      - guidance
+      - ipykernel
