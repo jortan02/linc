@@ -4,6 +4,7 @@
 #SBATCH --partition soc-gpu-np
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks=1
+#SBATCH --time=1:00:00
 #SBATCH --mail-user=jordan.tan@utah.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --output=./out/%A/%a.log
