@@ -10,9 +10,9 @@
 #SBATCH --output=./out/%A/%a.log
 
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate compositional
+conda activate linc
 
 mkdir /scratch/general/vast/u1283221/huggingface_cache
 export TRANSFORMERS_CACHE="/scratch/general/vast/u1283221/huggingface_cache"
 
-python script.py --model_name "meta-llama/Llama-3.2-3B-Instruct" --model_choice "naive" --dataset_name "yale-nlp/FOLIO" --batch_size 2
+python runner.py --model_name "meta-llama/Llama-3.2-3B-Instruct" --model_choice "naive" --dataset_name "yale-nlp/FOLIO" --batch_size 2
