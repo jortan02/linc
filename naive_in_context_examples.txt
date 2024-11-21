@@ -1,29 +1,3 @@
-import torch
-from transformers import pipeline
-
-
-class NaiveModel:
-
-    def __init__(self, model_name: str, prompt_format: str = "FOLIO"):
-        self.model_name = model_name
-        self.generator = pipeline(
-            "text-generation",
-            model=self.model_name,
-            device_map="auto",
-            torch_dtype=torch.float16,
-        )
-        match prompt_format:
-            case "FOLIO":
-                self.prompt_format = """\
-The following is a first-order logic (FOL) problem.
-The problem is to determine whether the conclusion follows from the premises.
-The premises are given in the form of a set of first-order logic sentences.
-The conclusion is given in the form of a single first-order logic sentence.
-The task is to evaluate the conclusion as 'True', 'False', or 'Uncertain' given the premises.
-Answer the question directly! Simply respond with 'True', 'False', or 'Uncertain' between <EVALUATE> tags.
-
-### Examples:
-Example 1:
 <PREMISES>
 All dispensable things are environment-friendly.
 All woodware is dispensable.
@@ -35,12 +9,10 @@ A worksheet is either paper or is environment friendly.
 <CONCLUSION>
 A worksheet is not dispensable.
 </CONCLUSION>
-
 <EVALUATE>
 Uncertain
 </EVALUATE>
 
-Example 2:
 <PREMISES>
 A La Liga soccer team ranks higher than another if it receives more points.
 If two La Liga soccer teams recieve the same points, the team which recieves more points from the games between the two teams ranks higher.
@@ -51,12 +23,10 @@ In La Liga 2021-2022, Real Madrid and Barcelona both recieve 3 points from the g
 <CONCLUSION>
 In La Liga 2021-2022, Real Madrid ranks higher than Barcelona.
 </CONCLUSION>
-
 <EVALUATE>
 True
 </EVALUATE>
 
-Example 3:
 <PREMISES>
 All athletes are good at sports.
 All Olympic gold medal winners are good athletes.
@@ -68,12 +38,10 @@ If Amy is not a Nobel laureate, then Amy is not an Olympic gold medal winner.
 <CONCLUSION>
 If Amy is not an Olympic gold medal winner, then Amy is a Nobel laureate.
 </CONCLUSION>
-
 <EVALUATE>
 False
 </EVALUATE>
 
-Example 4:
 <PREMISES>
 All people who are respected by others are people who contribute to the country. 
 If a person is respected by others, then he/she contributes to the country. 
@@ -87,12 +55,10 @@ James is either with a bad record in the local state or respected by others.
 <CONCLUSION>
 James contributes to the country.
 </CONCLUSION>
-
 <EVALUATE>
 Unknown
 </EVALUATE>
 
-Example 5:
 <PREMISES>
 No songs are visual. 
 All folk songs are songs. 
@@ -105,15 +71,13 @@ Mac is neither a folk song nor a sci-fi movie.
 <CONCLUSION>
 Inception is a folk song.
 </CONCLUSION>
-
 <EVALUATE>
 False
 </EVALUATE>
 
-Example 6:
 <PREMISES>
 Every chef can cook.
-Some people who aren't chefs can cook.
+Some people who aren’t chefs can cook.
 People who cook can make scrambled eggs and pasta.
 If someone can make cookies and muffins, they are a baker.
 Bakers who can also make scrambled eggs can make a good breakfast.
@@ -122,12 +86,10 @@ Luke can make cookies, scrambled eggs, and muffins, but not pasta.
 <CONCLUSION>
 Luke can make a good breakfast.
 </CONCLUSION>
-
 <EVALUATE>
 True
 </EVALUATE>
 
-Example 7:
 <PREMISES>
 ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
 ETS administers international tests including the TOEFL, TOEIC, GRE and subject tests in more than 180 countries.
@@ -137,12 +99,10 @@ ETS also develops K-12 statewide assessments used for accountability testing in 
 <CONCLUSION>
 ETS develops assessments for K-12 statewide as well as entry to US tertiary and quaternary education institutions.
 </CONCLUSION>
-
 <EVALUATE>
 True
 </EVALUATE>
 
-Example 8:
 <PREMISES>
 China is one of BRICS and its economy is emerging.
 India is one of BRICS and its economy is emerging.
@@ -153,49 +113,6 @@ There is an Indian.
 <CONCLUSION>
 There is a person from BRICS speaking Hindi.
 </CONCLUSION>
-
 <EVALUATE>
 Unknown
 </EVALUATE>
-
-### Question:
-<PREMISES>
-{premises}
-</PREMISES>
-<CONCLUSION>
-{conclusion}
-</CONCLUSION>\
-"""
-            case _:
-                raise ValueError(f'Prompt format "{prompt_format}" does not exist.')
-
-    def answer(
-        self,
-        premises_list: list[list[str]],
-        conclusion_list: list[str],
-        index_list: list[int],
-        repetitions: int = 5,
-        max_new_tokens: int = 16,
-    ):
-        chats = []
-        for premises, conclusion in zip(premises_list, conclusion_list):
-            prompt = self.prompt_format.format(premises=premises, conclusion=conclusion)
-            chat = [{"role": "user", "content": prompt}]
-            chats.append(chat)
-        batch_output = self.generator(
-            chats,
-            max_new_tokens=max_new_tokens,
-            num_return_sequences=repetitions,
-            pad_token_id=self.generator.tokenizer.eos_token_id,
-        )
-        b_generated_results = [
-            {
-                "index": index,
-                "responses": [
-                    response["generated_text"][-1]["content"]
-                    for response in r_responses
-                ],
-            }
-            for r_responses, index in zip(batch_output, index_list)
-        ]
-        return b_generated_results

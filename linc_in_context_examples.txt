@@ -1,34 +1,3 @@
-import torch
-from transformers import pipeline
-from nltk.sem.logic import LogicParser
-from nltk.inference.prover9 import Prover9
-
-
-class LincModel:
-
-    def __init__(self, model_name: str, prompt_format: str = "FOLIO"):
-        self.prover = Prover9()
-        self.model_name = model_name
-        self.generator = pipeline(
-            "text-generation",
-            model=self.model_name,
-            device_map="auto",
-            torch_dtype=torch.float16,
-        )
-        match prompt_format:
-            case "FOLIO":
-                self.prompt_format = """\
-The following is a first-order logic (FOL) problem.
-The problem is to determine whether the conclusion follows from the premises.
-The premises are given in the form of a set of first-order logic sentences.
-The conclusion is given in the form of a single first-order logic sentence.
-The task is to translate each of the premises and conclusions into FOL expressions, so that the expressions can be evaluated by a theorem solver to determine whether the conclusion follows from the premises.
-Expressions should be adhere to the format of the Python NLTK package logic module:
-Answer the question directly! Do NOT write Python code! Simply convert the English sentences (TEXT) into logic expressions (FOL) between the <EVALUATE> tags.
-
-### Examples:
-
-Example 1:
 <PREMISES>
 All dispensable things are environment-friendly.
 All woodware is dispensable.
@@ -40,7 +9,6 @@ A worksheet is either paper or is environment-friendly.
 <CONCLUSION>
 A worksheet is not dispensable.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: All dispensable things are environment-friendly.
 FOL: all x. (Dispensable(x) -> EnvironmentFriendly(x))
@@ -58,7 +26,6 @@ TEXT: A worksheet is not dispensable.
 FOL: -Dispensable(worksheet)
 </EVALUATE>
 
-Example 2:
 <PREMISES>
 A La Liga soccer team ranks higher than another if it receives more points.
 If two La Liga soccer teams recieve the same points, the team which recieves more points from the games between the two teams ranks higher.
@@ -69,7 +36,6 @@ In La Liga 2021-2022, Real Madrid and Barcelona both recieve 3 points from the g
 <CONCLUSION>
 In La Liga 2021-2022, Real Madrid ranks higher than Barcelona.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: A La Liga soccer team ranks higher than another if it receives more points.
 FOL: all x y. (LaLiga(x) & LaLiga(y) & MorePoints(x, y) -> HigherRank(x, y))
@@ -85,7 +51,6 @@ TEXT: In La Liga 2021-2022, Real Madrid ranks higher than Barcelona.
 FOL: HigherRank(realMadrid, barcelona)
 </EVALUATE>
 
-Example 3:
 <PREMISES>
 All athletes are good at sports.
 All Olympic gold medal winners are good athletes.
@@ -97,7 +62,6 @@ If Amy is not a Nobel laureate, then Amy is not an Olympic gold medal winner.
 <CONCLUSION>
 If Amy is not an Olympic gold medal winner, then Amy is a Nobel laureate.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: All athletes are good at sports.
 FOL: all x. (Athlete(x) -> GoodAtSports(x))
@@ -115,7 +79,6 @@ TEXT: If Amy is not an Olympic gold medal winner, then Amy is a Nobel laureate.
 FOL: -OlympicGoldMedalWinner(amy) -> NobelLaureate(amy)
 </EVALUATE>
 
-Example 4:
 <PREMISES>
 All people who are respected by others are people who contribute to the country. 
 If a person is respected by others, then he/she contributes to the country. 
@@ -129,7 +92,6 @@ James is either with a bad record in the local state or respected by others.
 <CONCLUSION>
 James contributes to the country.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: All people who are respected by others are people who contribute to the country. 
 FOL: all x. (Respected(x) -> ContributeToCountry(x))
@@ -151,7 +113,6 @@ TEXT: James contributes to the country.
 FOL: ContributeToCountry(james)
 </EVALUATE>
 
-Example 5:
 <PREMISES>
 No songs are visual.
 All folk songs are songs.
@@ -164,7 +125,6 @@ Mac is neither a folk song nor a sci-fi movie.
 <CONCLUSION>
 Inception is a folk song.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: No songs are visual.
 FOL: all x. (Song(x) -> -Visual(x))
@@ -184,10 +144,9 @@ TEXT: Inception is a folk song.
 FOL: FolkSong(inception)
 </EVALUATE>
 
-Example 6:
 <PREMISES>
 Every chef can cook.
-Some people who aren't chefs can cook.
+Some people who aren’t chefs can cook.
 People who cook can make scrambled eggs and pasta.
 If someone can make cookies and muffins, they are a baker.
 Bakers who can also make scrambled eggs can make a good breakfast.
@@ -196,11 +155,10 @@ Luke can make cookies, scrambled eggs, and muffins, but not pasta.
 <CONCLUSION>
 Luke can make a good breakfast.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: Every chef can cook.
 FOL: all x. (Chef(x) -> Cook(x))
-TEXT: Some people who aren't chefs can cook.
+TEXT: Some people who aren’t chefs can cook.
 FOL: exists x. (-Chef(x) & Cook(x))
 TEXT: People who cook can make scrambled eggs and pasta.
 FOL: all x. (Cook(x) -> (MakeScrambledEggs(x) & MakePasta(x)))
@@ -214,7 +172,6 @@ TEXT: Luke can make a good breakfast.
 FOL: MakeGoodBreakfast(luke)
 </EVALUATE>
 
-Example 7:
 <PREMISES>
 ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
 ETS administers international tests including the TOEFL, TOEIC, GRE and subject tests in more than 180 countries.
@@ -224,7 +181,6 @@ ETS also develops K-12 statewide assessments used for accountability testing in 
 <CONCLUSION>
 ETS develops assessments for K-12 statewide as well as entry to US tertiary and quaternary education institutions.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
 FOL: exists x. (Develops(ets, x) & StandardizedTest(x) & In(x, unitedstates) & For(x, k12andhighereducation))
@@ -238,7 +194,6 @@ TEXT: ETS develops assessments for K-12 statewide as well as entry to US tertiar
 FOL: exists x. (Develops(ets, x) & (StateWideAssesment(x) & For(x, k12) | AssociatedWith(x, entrytouseducationinstitutions)))
 </EVALUATE>
 
-Example 8:
 <PREMISES>
 China is one of BRICS and its economy is emerging.
 India is one of BRICS and its economy is emerging.
@@ -249,7 +204,6 @@ There is an Indian.
 <CONCLUSION>
 There is a person from BRICS speaking Hindi.
 </CONCLUSION>
-
 <EVALUATE>
 TEXT: China is one of BRICS and its economy is emerging.
 FOL: all x. (China(x) -> BRICS(x) & EmergingEconomy(x))
@@ -264,82 +218,3 @@ FOL: exists x y. (From(x, y) & India(y))
 TEXT: There is a person from BRICS speaking Hindi.
 FOL: exists x y. (From(x, y) & BRICS(y) & Speak(x, hindi))
 </EVALUATE>
-
-### Question:
-<PREMISES>
-{premises}
-</PREMISES>
-<CONCLUSION>
-{conclusion}
-</CONCLUSION>\
-"""
-            case _:
-                raise ValueError(f'Prompt format "{prompt_format}" does not exist')
-
-    def extract_fol_strings(self, text: str):
-        lines = text.split("\n")
-        fol_lines = [line[5:] for line in lines if "FOL:" in line]
-        return fol_lines
-
-    def convert_fol_exps(self, fol_strings: list[str]):
-        tlp = LogicParser()
-        fol_exps = [tlp.parse(fol_string) for fol_string in fol_strings]
-        return fol_exps
-
-    def answer(
-        self,
-        premises_list: list[list[str]],
-        conclusion_list: list[str],
-        index_list: list[int],
-        repetitions: int = 5,
-        out_of_k: int = 5,
-        max_new_tokens: int = 256,
-    ):
-        chats = []
-        for premises, conclusion in zip(premises_list, conclusion_list):
-            prompt = self.prompt_format.format(premises=premises, conclusion=conclusion)
-            chat = [{"role": "user", "content": prompt}]
-            chats.append(chat)
-        batch_output = self.generator(
-            chats,
-            max_new_tokens=max_new_tokens,
-            num_return_sequences=repetitions * out_of_k,
-            pad_token_id = self.generator.tokenizer.eos_token_id
-        )
-        b_generated_results = [
-            {
-                "index": index,
-                "responses": [
-                    [
-                        response["generated_text"][-1]["content"]
-                        for response in k_responses
-                    ]
-                    for k_responses in [
-                        rk_responses[index : index + out_of_k]
-                        for index in range(0, len(rk_responses), out_of_k)
-                    ]
-                ],
-            }
-            for rk_responses, index in zip(batch_output, index_list)
-        ]
-        return b_generated_results
-
-    def parse(self, b_generated_results: list[list[str]]):
-        b_proved_results = []
-        for generated_result in b_generated_results:
-            index = generated_result["index"]
-            k_responses = generated_result["responses"]
-            fol_results = {
-                "index": index,
-                "responses": [],
-            }
-            for response in k_responses:
-                try:
-                    fol_strings = self.extract_fol_strings(response["generated_text"])
-                    fol_exps = self.convert_fol_exps(fol_strings)
-                    result = self.prover.prove(fol_exps[-1], fol_exps[:-1])
-                    fol_results["responses"].append(result)
-                except Exception:
-                    fol_results["responses"].append("Error")
-            b_proved_results.append(fol_results)
-        return b_proved_results
