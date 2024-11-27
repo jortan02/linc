@@ -144,7 +144,7 @@ True
         conclusion_list: list[str],
         index_list: list[int],
         repetitions: int = 5,
-        # max_new_tokens: int = 16,
+        max_new_tokens: int = 64,
     ):
         chats = []
         for premises, conclusion in zip(premises_list, conclusion_list):
@@ -153,13 +153,13 @@ True
             chats.append(chat)
         batch_output = self.generator(
             chats,
-            # max_new_tokens=max_new_tokens,
+            max_new_tokens=max_new_tokens,
             num_return_sequences=repetitions,
             pad_token_id=self.generator.tokenizer.eos_token_id,
         )
         b_generated_results = [
             {
-                "index": index,
+                "index": index.item(),
                 "responses": [
                     response["generated_text"][-1]["content"]
                     for response in r_responses

@@ -125,7 +125,7 @@ if __name__ == "__main__":
     dataset = dataset_name.split("/")[-1]
     model = model_name.split("/")[-1]
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    output_name = f"results/{dataset}-{model}-{model_choice}_{date}.pkl"
+    output_name = f"results/{dataset}-{model}-{model_choice}_{date}.json"
     with open(output_name, "w") as file:
         json.dump(results, file, indent=1)
     print("Wrote to", output_name)
