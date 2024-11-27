@@ -89,7 +89,7 @@ James contributes to the country.
 </CONCLUSION>
 
 <EVALUATE>
-Unknown
+Uncertain
 </EVALUATE>
 
 Example 5:
@@ -127,37 +127,6 @@ Luke can make a good breakfast.
 True
 </EVALUATE>
 
-Example 7:
-<PREMISES>
-ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
-ETS administers international tests including the TOEFL, TOEIC, GRE and subject tests in more than 180 countries.
-Many of the assessments ETS develops are associated with entry to the US tertiary and quaternary education institutions. 
-ETS also develops K-12 statewide assessments used for accountability testing in many states.
-</PREMISES>
-<CONCLUSION>
-ETS develops assessments for K-12 statewide as well as entry to US tertiary and quaternary education institutions.
-</CONCLUSION>
-
-<EVALUATE>
-True
-</EVALUATE>
-
-Example 8:
-<PREMISES>
-China is one of BRICS and its economy is emerging.
-India is one of BRICS and its economy is emerging.
-All people from China speak Chinese.
-All people from India speak Hindi or English.
-There is an Indian.
-</PREMISES>
-<CONCLUSION>
-There is a person from BRICS speaking Hindi.
-</CONCLUSION>
-
-<EVALUATE>
-Unknown
-</EVALUATE>
-
 ### Question:
 <PREMISES>
 {premises}
@@ -175,7 +144,7 @@ Unknown
         conclusion_list: list[str],
         index_list: list[int],
         repetitions: int = 5,
-        max_new_tokens: int = 16,
+        # max_new_tokens: int = 16,
     ):
         chats = []
         for premises, conclusion in zip(premises_list, conclusion_list):
@@ -184,7 +153,7 @@ Unknown
             chats.append(chat)
         batch_output = self.generator(
             chats,
-            max_new_tokens=max_new_tokens,
+            # max_new_tokens=max_new_tokens,
             num_return_sequences=repetitions,
             pad_token_id=self.generator.tokenizer.eos_token_id,
         )

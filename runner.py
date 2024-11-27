@@ -107,7 +107,7 @@ if __name__ == "__main__":
         ]
         validation_df = validation_df.drop([x - 1 for x in error_indices])
         validation_df["premises"] = validation_df["premises"].apply(lambda x: "\n".join(x))
-        validation_df["premises-FOL"] = validation_df["premises-FOL "].apply(lambda x: "\n".join(x))
+        validation_df["premises-FOL"] = validation_df["premises-FOL"].apply(lambda x: "\n".join(x))
 
     # %%
 
@@ -120,14 +120,14 @@ if __name__ == "__main__":
         results.extend(batch_results)
 
     # %%
-    import pickle
+    import json
     import datetime
     dataset = dataset_name.split("/")[-1]
     model = model_name.split("/")[-1]
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     output_name = f"results/{dataset}-{model}-{model_choice}_{date}.pkl"
-    with open(output_name, "wb") as file:
-        pickle.dump(results, file)
+    with open(output_name, "w") as file:
+        json.dump(results, file, indent=1)
     print("Wrote to", output_name)
     stop = time.time()
     print("Time:", stop - start)

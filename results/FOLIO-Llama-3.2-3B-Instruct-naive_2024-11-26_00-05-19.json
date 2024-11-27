@@ -1,0 +1,1822 @@
+[
+ {
+  "index": 0,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 1,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<PREMISES>\nIf people perform in school talent shows often, then"
+  ]
+ },
+ {
+  "index": 2,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 3,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 4,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 5,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 6,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 7,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 8,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 9,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 10,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 11,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 12,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 13,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 14,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 15,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 16,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\n\"Stranger Things\" is a popular Netflix show",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\n\"Stranger Things\" is a popular Netflix show",
+   "<PREMISES>\n\"Stranger Things\" is a popular Netflix show"
+  ]
+ },
+ {
+  "index": 17,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\n\"Stranger Things\" is a popular Netflix show",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 18,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 19,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 20,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 21,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 22,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 23,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 24,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 25,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 26,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 27,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 28,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 29,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 30,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 31,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 32,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 33,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 34,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 35,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 36,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 37,
+  "responses": [
+   "<:EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 38,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 39,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 40,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 41,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 42,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 43,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 44,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 45,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 46,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 47,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 48,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 49,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 50,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 51,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 52,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 53,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 54,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 55,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 56,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 57,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 58,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 59,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 60,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 61,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 62,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 63,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 64,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 65,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nAll growth companies\u2019 stocks are volatile.\nIf the",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<PREMISES>\nAll growth companies\u2019 stocks are volatile.\nIf the",
+   "<PREMISES>\nAll growth companies\u2019 stocks are volatile.\nIf the"
+  ]
+ },
+ {
+  "index": 66,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 67,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 68,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 69,
+  "responses": [
+   "<PREMISES>\nIf people work in student jobs on campus, then",
+   "<PREMISES>\nIf people work in student jobs on campus, then",
+   "<PREMISES>\nIf people work in student jobs on campus, then",
+   "<PREMISES>\nIf people work in student jobs on campus, then",
+   "<PREMISES>\nIf people work in student jobs on campus, then"
+  ]
+ },
+ {
+  "index": 70,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 71,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 72,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 73,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 74,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 75,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 76,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf the restaurant is listed in Yelp\u2019s recommendations,",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EMODEL>\nFalse\n</MODEL>",
+   "<:EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 77,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 78,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 79,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 80,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 81,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 82,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 83,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 84,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 85,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 86,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 87,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are",
+   "<\u0395VALUATE>\nFalse\n</\u0395VALUATE>"
+  ]
+ },
+ {
+  "index": 88,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are"
+  ]
+ },
+ {
+  "index": 89,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nIf animals are loved by tourists, then they are",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 90,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 91,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 92,
+  "responses": [
+   "<PREMISES>\nA man is either kind or evil.\nNo ugly",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nA man is either kind or evil.\nNo ugly",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 93,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 94,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 95,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 96,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 97,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 98,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 99,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 100,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 101,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 102,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 103,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 104,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 105,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 106,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 107,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 108,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 109,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 110,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 111,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 112,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 113,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 114,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 115,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 116,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 117,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 118,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 119,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 120,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 121,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 122,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nIf a cartoon character is funny, then it is",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 123,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nIf a cartoon character is funny, then it is",
+   "<PREMISES>\nIf a cartoon character is funny, then it is",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 124,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 125,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 126,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 127,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 128,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 129,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 130,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nAll students are humans. \nIf someone studies,",
+   "<\u0395VALUATE>\nTrue\n</\u0395VALUATE>"
+  ]
+ },
+ {
+  "index": 131,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 132,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 133,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 134,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf people own a large desktop monitor at their home",
+   "<PREMISES>\nIf people own a large desktop monitor at their home",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 135,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf people own a large desktop monitor at their home"
+  ]
+ },
+ {
+  "index": 136,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nIf people own a large desktop monitor at their home",
+   "<PREMISES>\nIf people own a large desktop monitor at their home",
+   "<PREMISES>\nIf people own a large desktop monitor at their home",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 137,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 138,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 139,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 140,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nNo students who work in the library are from the",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 141,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nNo students who work in the library are from the",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 142,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 143,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 144,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 145,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 146,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 147,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 148,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 149,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 150,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 151,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 152,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf something is a deadly disease, then its survival",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 153,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<:EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<:EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 154,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 155,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 156,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 157,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 158,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 159,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 160,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 161,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 162,
+  "responses": [
+   "<PREMISES>\nNo one nice to animals is mean to animals.\n",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 163,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 164,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 165,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 166,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 167,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 168,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 169,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nSome basketball players are not American.\nAll basketball players",
+   "<PREMISES>\nSome basketball players are not American.\nAll basketball players"
+  ]
+ },
+ {
+  "index": 170,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 171,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<\u0395VALUATE>\nFalse\n</\u0395VALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 172,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<PREMISES>\nThe winner of the 1992 du Maurier"
+  ]
+ },
+ {
+  "index": 173,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 174,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 175,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nIf an animal barks, then Jane does not",
+   "<:EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 176,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 177,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<PREMISES>\nAilton Silva, born in 1995,",
+   "<PREMISES>\nAilton Silva, born in 1995,",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 178,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 179,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 180,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 181,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ }
+]

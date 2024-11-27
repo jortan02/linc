@@ -214,57 +214,6 @@ TEXT: Luke can make a good breakfast.
 FOL: MakeGoodBreakfast(luke)
 </EVALUATE>
 
-Example 7:
-<PREMISES>
-ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
-ETS administers international tests including the TOEFL, TOEIC, GRE and subject tests in more than 180 countries.
-Many of the assessments ETS develops are associated with entry to the US tertiary and quaternary education institutions. 
-ETS also develops K-12 statewide assessments used for accountability testing in many states.
-</PREMISES>
-<CONCLUSION>
-ETS develops assessments for K-12 statewide as well as entry to US tertiary and quaternary education institutions.
-</CONCLUSION>
-
-<EVALUATE>
-TEXT: ETS develops various standardized tests primarily in the United States for K-12 and higher education. 
-FOL: exists x. (Develops(ets, x) & StandardizedTest(x) & In(x, unitedstates) & For(x, k12andhighereducation))
-TEXT: ETS administers international tests including the TOEFL, TOEIC, GRE and subject tests in more than 180 countries.
-FOL: exists x. (Administers(ets, x) & InternationalTest(x) & (TOEFL(x) | TOEIC(x) | GRE(x) | SubjectTests(x)))
-TEXT: Many of the assessments ETS develops are associated with entry to the US tertiary and quaternary education institutions. 
-FOL: exists x. (Develops(ets, x) & AssociatedWith(x, entrytouseducationinstitutions))
-TEXT: ETS also develops K-12 statewide assessments used for accountability testing in many states.
-FOL: exists x. (Develops(ets, x) & StateWideAssesment(x) & UsedFor(x, accountabilitytesting))
-TEXT: ETS develops assessments for K-12 statewide as well as entry to US tertiary and quaternary education institutions.
-FOL: exists x. (Develops(ets, x) & (StateWideAssesment(x) & For(x, k12) | AssociatedWith(x, entrytouseducationinstitutions)))
-</EVALUATE>
-
-Example 8:
-<PREMISES>
-China is one of BRICS and its economy is emerging.
-India is one of BRICS and its economy is emerging.
-All people from China speak Chinese.
-All people from India speak Hindi or English.
-There is an Indian.
-</PREMISES>
-<CONCLUSION>
-There is a person from BRICS speaking Hindi.
-</CONCLUSION>
-
-<EVALUATE>
-TEXT: China is one of BRICS and its economy is emerging.
-FOL: all x. (China(x) -> BRICS(x) & EmergingEconomy(x))
-TEXT: India is one of BRICS and its economy is emerging.
-FOL: all x. (India(x) -> BRICS(x) & EmergingEconomy(x))
-TEXT: All people from China speak Chinese.
-FOL: all x. all y (From(x, y) & China(y) -> Speak(x, chinese))
-TEXT: All people from India speak Hindi or English.
-FOL: all x. all y (From(x, y) & India(y) -> Speak(x, hindi) | Speak(x, english))
-TEXT: There is an Indian.
-FOL: exists x y. (From(x, y) & India(y))
-TEXT: There is a person from BRICS speaking Hindi.
-FOL: exists x y. (From(x, y) & BRICS(y) & Speak(x, hindi))
-</EVALUATE>
-
 ### Question:
 <PREMISES>
 {premises}
@@ -293,7 +242,7 @@ FOL: exists x y. (From(x, y) & BRICS(y) & Speak(x, hindi))
         index_list: list[int],
         repetitions: int = 5,
         out_of_k: int = 5,
-        max_new_tokens: int = 256,
+        # max_new_tokens: int = 256,
     ):
         chats = []
         for premises, conclusion in zip(premises_list, conclusion_list):
@@ -302,7 +251,7 @@ FOL: exists x y. (From(x, y) & BRICS(y) & Speak(x, hindi))
             chats.append(chat)
         batch_output = self.generator(
             chats,
-            max_new_tokens=max_new_tokens,
+            # max_new_tokens=max_new_tokens,
             num_return_sequences=repetitions * out_of_k,
             pad_token_id = self.generator.tokenizer.eos_token_id
         )

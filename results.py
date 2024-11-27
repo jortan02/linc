@@ -24,7 +24,7 @@ class LogicDataset(Dataset):
 # %%
 import pickle
     
-output_name = f"FOLIO-Llama-3.2-1B-Instruct-linc_2024-11-17_12-56-05.pkl"
+output_name = f"results/FOLIO-Llama-2-7b-chat-hf-cot_2024-11-26_00-50-43.json"
 with open(output_name, 'rb') as file:
     results = pickle.load(file)
 
@@ -32,5 +32,4 @@ with open(output_name, 'rb') as file:
 results
 
 # %%
-results[0]["responses"][0][0]
-# %%
+results[0]["responses"][0]
