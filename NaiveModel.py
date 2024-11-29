@@ -19,8 +19,7 @@ The following is a first-order logic (FOL) problem.
 The problem is to determine whether the conclusion follows from the premises.
 The premises are given in the form of a set of first-order logic sentences.
 The conclusion is given in the form of a single first-order logic sentence.
-The task is to evaluate the conclusion as 'True', 'False', or 'Uncertain' given the premises.
-Answer the question directly! Simply respond with 'True', 'False', or 'Uncertain' between <EVALUATE> tags.
+The task is to evaluate the conclusion as "True", "False", or "Uncertain" given the premises.
 
 ### Examples:
 Example 1:
@@ -128,12 +127,16 @@ True
 </EVALUATE>
 
 ### Question:
+
+Here are the following premises and conclusion you need to evaluate:
 <PREMISES>
 {premises}
 </PREMISES>
 <CONCLUSION>
 {conclusion}
-</CONCLUSION>\
+</CONCLUSION>
+
+Start your response with "<EVALUATE>". Then, write "True", "False", or "Uncertain". End your answer with "</EVALUATE>".\
 """
             case _:
                 raise ValueError(f'Prompt format "{prompt_format}" does not exist.')
@@ -144,7 +147,7 @@ True
         conclusion_list: list[str],
         index_list: list[int],
         repetitions: int = 5,
-        max_new_tokens: int = 64,
+        max_new_tokens: int = 1024,
     ):
         chats = []
         for premises, conclusion in zip(premises_list, conclusion_list):

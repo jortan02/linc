@@ -78,40 +78,17 @@ if __name__ == "__main__":
             raise ValueError(f"Model choice {model_name} does not exist.")
 
     # %%
-    # Login using e.g. `huggingface-cli login` to access this dataset
-    if dataset_name == "yale-nlp/FOLIO":
-        validation_df = pd.read_json("FOLIO/data/v0.0/folio-validation.jsonl", lines=True)
-        error_indices = [
-            3,
-            109,
-            110,
-            111,
-            6,
-            28,
-            30,
-            48,
-            113,
-            115,
-            139,
-            140,
-            10,
-            11,
-            12,
-            88,
-            106,
-            107,
-            108,
-            174,
-            175,
-            176,
-        ]
-        validation_df = validation_df.drop([x - 1 for x in error_indices])
-        validation_df["premises"] = validation_df["premises"].apply(lambda x: "\n".join(x))
-        validation_df["premises-FOL"] = validation_df["premises-FOL"].apply(lambda x: "\n".join(x))
+    match (dataset_name):
+        case "folio":
+            evaluation_df = pd.read_csv("data/folio.csv")
+        case "proofwriter":
+            evaluation_df = pd.read_csv("data/folio.csv")
+        case _:
+            raise ValueError(f"Dataset {dataset_name} does not exist.")
 
     # %%
 
-    validation_dataset = LogicDataset(validation_df)
+    validation_dataset = LogicDataset(evaluation_df)
     dataloader = DataLoader(validation_dataset, batch_size=batch_size, shuffle=False)
 
     results = []
@@ -125,7 +102,7 @@ if __name__ == "__main__":
     dataset = dataset_name.split("/")[-1]
     model = model_name.split("/")[-1]
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    output_name = f"results/{dataset}-{model}-{model_choice}_{date}.json"
+    output_name = f"results/{dataset}/{model_choice} - {model} ({date}).json"
     with open(output_name, "w") as file:
         json.dump(results, file, indent=1)
     print("Wrote to", output_name)

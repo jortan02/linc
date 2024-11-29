@@ -20,7 +20,6 @@ The problem is to determine whether the conclusion follows from the premises.
 The premises are given in the form of a set of first-order logic sentences.
 The conclusion is given in the form of a single first-order logic sentence.
 The task is to translate each of the premises and conclusions into FOL expressions.
-Answer the question directly! Between <EVALUATE> tags, begin with 'Let's think step by step,' try to reason using chain of thought, and end with an ANSWER: of 'True', 'False', or 'Uncertain'.
 
 ### Examples:
 
@@ -152,12 +151,16 @@ ANSWER: True
 </EVALUATE>
 
 ### Question:
+
+Here are the following premises and conclusion you need to evaluate:
 <PREMISES>
 {premises}
 </PREMISES>
 <CONCLUSION>
 {conclusion}
-</CONCLUSION>\
+</CONCLUSION>
+
+Start your response with "<EVALUATE>". Then, write "Let's think step by step." Try to reason using chain of thought. Write your answer starting with "ANSWER:" and then "True", "False", or "Uncertain". End your answer with "</EVALUATE>".\
 """
             case _:
                 raise ValueError(f'Prompt format "{prompt_format}" does not exist.')

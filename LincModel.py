@@ -20,11 +20,10 @@ class LincModel:
                 self.prompt_format = """\
 The following is a first-order logic (FOL) problem.
 The problem is to determine whether the conclusion follows from the premises.
-The premises are given in the form of a set of first-order logic sentences.
-The conclusion is given in the form of a single first-order logic sentence.
-The task is to translate each of the premises and conclusions into FOL expressions, so that the expressions can be evaluated by a theorem solver to determine whether the conclusion follows from the premises.
-Expressions should be adhere to the format of the Python NLTK package logic module:
-Answer the question directly! Do NOT write Python code! Simply convert the English sentences (TEXT) into logic expressions (FOL) between the <EVALUATE> tags.
+The premises are given in the form of a set of first-order logic sentences inside <PREMISES> tags.
+The conclusion is given in the form of a single first-order logic sentence inside <CONCLUSION> tags.
+The task is to translate each of the premises and conclusions into FOL expressions inside <EVALUATE> tags, so that the expressions can be evaluated by a theorem solver to determine whether the conclusion follows from the premises.
+Expressions should be adhere to the format of the Python NLTK package logic module.
 
 ### Examples:
 
@@ -215,12 +214,16 @@ FOL: MakeGoodBreakfast(luke)
 </EVALUATE>
 
 ### Question:
+
+Here are the following premises and conclusion you need to evaluate:
 <PREMISES>
 {premises}
 </PREMISES>
 <CONCLUSION>
 {conclusion}
-</CONCLUSION>\
+</CONCLUSION>
+
+Start your response with "<EVALUATE>". For each sentence in the premise/conclusion, write "TEXT:" and the sentence and "FOL:" with the FOL translation of the sentence. End your answer with "</EVALUATE>".\
 """
             case _:
                 raise ValueError(f'Prompt format "{prompt_format}" does not exist')
