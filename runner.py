@@ -82,7 +82,7 @@ if __name__ == "__main__":
         case "folio":
             evaluation_df = pd.read_csv("data/folio.csv")
         case "proofwriter":
-            evaluation_df = pd.read_csv("data/folio.csv")
+            evaluation_df = pd.read_csv("data/proofwriter.csv")
         case _:
             raise ValueError(f"Dataset {dataset_name} does not exist.")
 

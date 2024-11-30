@@ -7,7 +7,7 @@
 #SBATCH --time=2:00:00
 #SBATCH --mail-user=jordan.tan@utah.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --output=./out/%A/%a.log
+#SBATCH --output=./out/%A.log
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate linc

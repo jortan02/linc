@@ -1,0 +1,1822 @@
+[
+ {
+  "index": 0,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 1,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\n\nTo evaluate the conclusion, we need to analyze the premises and the conclusion. \n\nFrom the premises, we can deduce the following:\n\n1. If people perform in school talent shows often, then they attend and are very engaged with school events. (Premise 1)\n2. People either perform in school talent shows often or are inactive and disinterested members of their community. (Premise 2)\n3. If people chaperone high school dances, then they are not students who attend the school. (Premise 3)\n4. All people who are inactive and disinterested members of their community chaperone high school dances. (Premise 4)\n5. All young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school. (Premise 5)\n6. Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school. (Premise 6)\n\nNow, let's analyze the conclusion:\n\nIf Bonnie is either both a young child or teenager who wishes to further her academic career and educational opportunities and chaperones high school dances or neither is a young child nor teenager who wishes to further her academic career and educational opportunities, then Bonnie is either a student who attends the school or is an inactive and disinterested member of the community.\n\nFrom Premise 5, we know that all young children and teenagers who wish to further their academic careers and educational opportunities are students who attend the school. \n\nFrom Premise 3, we know that if people chaperone high school dances, then they are not students who attend the school.\n\nFrom Premise 4, we know that all people who are inactive and disinterested members of their community chaperone high school dances.\n\nFrom Premise 2, we know that people either perform in school talent shows often or are inactive and disinterested members of their community.\n\nFrom Premise 6, we know that Bonnie either both attends and is very engaged with school events and is a student who attends the school, or she neither attends and is very engaged with school events nor is a student who attends the school.\n\nUsing these premises, we can deduce the following:\n\n- If Bonnie is a young child or teenager who wishes to further her academic career and educational opportunities, then she is a student who attends the school (Premise 5).\n- If Bonnie is not a student who attends the school, then she must be an inactive and disinterested member of her community (Premise 4 and Premise 6).\n- If Bonnie is an inactive and disinterested member of her community, then she chaperones high school dances (Premise 4).\n- If Bonnie chaperones high school dances, then she is not a student who attends the school (Premise 3).\n\nTherefore, the conclusion is \"True\" because it logically follows from the premises.\n\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 2,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the reasoning:\n\nLet's break down the premises:\n\n1. All employees who schedule a meeting with their customers will appear in the company today.\n2. Everyone who has lunch in the company schedules meetings with their customers.\n3. Employees will either have lunch in the company or have lunch at home.\n4. If an employee has lunch at home, then he/she is working remotely from home.\n5. All employees who are in other countries work remotely from home.\n6. No managers work remotely from home.\n7. James is either a manager and appears in the company today or neither a manager nor appears in the company today.\n\nFrom premise 3, we know that James either has lunch in the company or has lunch at home. If he has lunch at home, then he is working remotely from home (premise 4). But premise 5 says that all employees who are in other countries work remotely from home, and premise 6 says that no managers work remotely from home. Since James is either a manager or not (premise 7), if he is a manager, he can't be working remotely from home. Therefore, if James is a manager, he must be in the company today.\n\nNow, let's analyze the conclusion:\n\n<CONCLUSION>\nJames has lunch in the company.\n</CONCLUSION>\n\nFrom premise 7, we know that James is either a manager and appears in the company today or neither a manager nor appears in the company today. We have already established that if James is a manager, he must be in the company today. Therefore, James is not a manager, and hence, he appears in the company today.\n\nNow, let's use premise 2: Everyone who has lunch in the company schedules meetings with their customers. Since James appears in the company today, and premise 1 says that all employees who schedule a meeting with their customers will appear in the company today, James must schedule a meeting with his customers.\n\nTherefore, James has lunch in the company.\n\nHence, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 3,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 4,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation: \n\n1. Monkeypox is an infectious disease caused by the monkeypox virus. \n2. Monkeypox virus can occur in certain animals, including humans.\n3. Humans are mammals.\n4. Mammals are animals.\n\nFrom (2) and (3), we can conclude that humans are animals.\nFrom (4), we know that mammals are animals.\nSince humans are animals, and mammals are animals, it is true that there is an animal.\n\nThe conclusion \"There is an animal\" follows logically from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 5,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 6,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 7,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 8,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 9,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 10,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 11,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 12,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 13,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 14,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 15,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 16,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's a step-by-step breakdown:\n\n1. \"Stranger Things\" is a popular Netflix show. (Premise)\n2. If a Netflix show is popular, Karen will binge-watch it. (Premise)\n   Therefore, Karen will binge-watch \"Stranger Things\". (Modus Ponens)\n\n3. If and only if Karen binge-watches a Netflix show, she will download it. (Premise)\n   Since Karen will binge-watch \"Stranger Things\", she will download it. (Modus Ponens)\n\n4. However, we know that Karen does not download \"Black Mirror\". (Premise)\n   This does not affect our conclusion about \"Stranger Things\" because the conclusion is based on a different show.\n\n5. If Karen binge-watches a Netflix show, she will share it to Lisa. (Premise)\n   Since Karen will binge-watch \"Stranger Things\", she will share it to Lisa. (Modus Ponens)\n\nTherefore, Karen will share \"Stranger Things\" to Lisa.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation: \n\nFrom the premises, we can deduce the following:\n\n1. \"Stranger Things\" is a Netflix show. \n2. If a Netflix show is popular, Karen will binge-watch it. \n3. \"Stranger Things\" is a popular Netflix show. (From 1 and 2)\n4. If Karen binge-watches a Netflix show, she will download it. \n5. If Karen binge-watches a Netflix show, she will share it to Lisa. \n6. Karen does not download \"Black Mirror\". \n7. \"Black Mirror\" is a Netflix show. \n8. \"Stranger Things\" is not \"Black Mirror\". (From 1 and 7)\n9. \"Stranger Things\" is a popular Netflix show. (From 3)\n10. Therefore, Karen will binge-watch \"Stranger Things\". (From 9 and 2)\n11. Therefore, Karen will download \"Stranger Things\". (From 10 and 4)\n12. Therefore, Karen will share \"Stranger Things\" to Lisa. (From 10 and 5)\n\nHence, the conclusion follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 17,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 18,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that \"Black Mirror\" is a Netflix show.\n2. We also know that if a Netflix show is popular, Karen will binge-watch it. However, we do not have any information about the popularity of \"Black Mirror\".\n3. We do know that Karen does not download \"Black Mirror\".\n4. However, the premises also tell us that if Karen binge-watches a Netflix show, she will download it. Therefore, we can conclude that Karen did not binge-watch \"Black Mirror\".\n5. Finally, we know that if Karen binge-watches a Netflix show, she will share it to Lisa. Since we concluded that Karen did not binge-watch \"Black Mirror\", we can conclude that Karen will not share \"Black Mirror\" to Lisa.\n6. However, this is not the conclusion we are trying to evaluate. The conclusion we are trying to evaluate is that Karen will share \"Black Mirror\" to Lisa.\n7. We have one more premise that can help us. The premise says that if and only if Karen binge-watches a Netflix show, she will download it. This is an \"if and only if\" statement, which means that if Karen downloads a Netflix show, then she must have binge-watched it.\n8. We know that Karen does not download \"Black Mirror\", and we know that if Karen downloads a Netflix show, then she must have binge-watched it. Therefore, we can conclude that Karen did not binge-watch \"Black Mirror\".\n9. However, we also know that \"Black Mirror\" is a Netflix show, and we know that if Karen binge-watches a Netflix show, she will share it to Lisa. Therefore, we can conclude that Karen will share \"Black Mirror\" to Lisa.\n\nThis conclusion is possible because we do not have any information about Karen's behavior with respect to the popularity of \"Black Mirror\". If \"Black Mirror\" is not popular, then Karen will not binge-watch it, and therefore she will not share it to Lisa. But if \"Black Mirror\" is popular, then Karen will binge-watch it, and therefore she will share it to Lisa. Since we do not know whether \"Black Mirror\" is popular or not, we cannot conclude that Karen will not share \"Black Mirror\" to Lisa. Therefore, the conclusion that Karen will share \"Black Mirror\" to Lisa is uncertain only if we assume that \"Black Mirror\" is not popular.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we know that \"Black Mirror\" is a Netflix show. We also know that if a Netflix show is popular, Karen will binge-watch it. However, we do not have any information about the popularity of \"Black Mirror\". \n\nBut we also know that \"Stranger Things\" is a popular Netflix show and Karen will binge-watch it if it is popular. Therefore, Karen will binge-watch \"Stranger Things\". \n\nSince Karen binge-watches \"Stranger Things\", we can infer that Karen will also binge-watch \"Black Mirror\" because they are both Netflix shows. \n\nSince Karen binge-watches \"Black Mirror\", we can infer that Karen will download \"Black Mirror\" because Karen downloads a Netflix show if and only if she binge-watches it. \n\nHowever, we know that Karen does not download \"Black Mirror\". This is a contradiction. Therefore, our initial assumption that \"Black Mirror\" is not popular must be true. \n\nIf \"Black Mirror\" is not popular, then Karen will not binge-watch it. \n\nSince Karen will not binge-watch \"Black Mirror\", we can infer that Karen will not share \"Black Mirror\" to Lisa. \n\nHowever, we know that Karen will share \"Black Mirror\" to Lisa if she binge-watches it. This is a contradiction. \n\nBut we know that Karen does not download \"Black Mirror\" and \"Black Mirror\" is a Netflix show. Therefore, \"Black Mirror\" must be a show that Karen does not binge-watch. \n\nSince Karen does not binge-watch \"Black Mirror\", we can infer that Karen will not share \"Black Mirror\" to Lisa. \n\nTherefore, the conclusion \"Karen will share 'Black Mirror' to Lisa\" does not follow from the premises. However, the reason we found is not because of the conclusion, but because of the premises. Since Karen does not download \"Black Mirror\" and \"Black Mirror\" is a Netflix show, we can infer that \"Black Mirror\" must be a show that Karen does not binge-watch. \n\nSince \"Black Mirror\" is a Netflix show and Karen does not binge-watch it, we can infer that Karen will not share it to Lisa. \n\nTherefore, the conclusion \"Karen will share 'Black Mirror' to Lisa\" is actually True.",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 19,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation: From the premises, we know that Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games (premise 4), and also hosted both the Summer and Winter Olympics, along with the Summer and Winter Paralympics (premise 5). This implies that Beijing hosted the Winter Olympics, as it is not possible for a city to host the Summer and Winter Olympics at the same time. Therefore, the conclusion that Beijing has hosted both the 2008 Summer Olympics and a winter Olympics is true."
+  ]
+ },
+ {
+  "index": 20,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 21,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 22,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 23,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 24,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 25,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we know that Djokovic is a professional tennis player (since he is a Grand Slam champion) and an athlete. \n\nSince Djokovic is a professional tennis player, he is an athlete. \n\nFrom the premises, we also know that all well-paid people live in tax havens.\n\nHowever, we are given another statement that if Djokovic is famous and is an athlete, then Djokovic lives in a well-paid area. Since Djokovic is an athlete, he is famous (from the premises). But we cannot conclude that Djokovic lives in a well-paid area because we have two statements about well-paid areas - one stating that all well-paid people live in tax havens, and the other stating that if Djokovic is famous and an athlete, then Djokovic lives in a well-paid area.\n\nHowever, we can conclude that Djokovic lives in a well-paid area from the second statement, because we know that Djokovic is an athlete and is famous. \n\nBut from the premises, we also know that all well-paid people live in tax havens. So, if Djokovic lives in a well-paid area, then he must live in a tax haven. \n\nBut we are given the conclusion that Djokovic does not live in a tax haven. Therefore, our initial assumption that Djokovic lives in a well-paid area must be false. \n\nSince we know that Djokovic is a professional tennis player and an athlete, we can conclude that Djokovic lives in a tax haven from the premises (since all well-paid people live in tax havens). \n\nHowever, this conclusion is opposite to the conclusion given in the problem (Djokovic does not live in a tax haven). Therefore, the conclusion does not follow from the premises. \n\nThe conclusion should be \"False\" but the above explanation is a bit complex.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we can infer the following:\n\n1. Djokovic is a Grand Slam champion or an Oscar-nominated actor (from the first premise).\n2. If Djokovic is a Grand Slam champion, then he is a professional tennis player (from the second premise).\n3. If Djokovic is a professional tennis player, then he is an athlete (from the fourth premise).\n4. If Djokovic is an athlete, then he is famous (from the seventh premise).\n5. If Djokovic is famous and an athlete, then he lives in a well-paid area (from the eighth premise).\n\nHowever, we also know that:\n\n6. All well-paid people live in tax havens (from the sixth premise).\n\nCombining premises 5 and 6, we can conclude that if Djokovic is famous and an athlete, then he lives in a tax haven.\n\nHowever, this conclusion is in conflict with the conclusion we are trying to evaluate: Djokovic does not live in a tax haven.\n\nGiven the premises, we cannot conclude that Djokovic does not live in a tax haven, because there is no information that directly contradicts this conclusion. In fact, the premises suggest that Djokovic might live in a tax haven if he is famous and an athlete.\n\nTherefore, the conclusion \"Djokovic does not live in a tax haven\" is uncertain, because we cannot definitively conclude that it is true or false based on the premises.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 26,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 27,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 28,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 29,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 30,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation: \n\nFrom the premises, we know that Vienna Music Society is an orchestra (P7) and it premiered Symphony No. 9 (P5). Since Symphony No. 9 is a music piece (P1), this means that Vienna Music Society premiered a music piece. \n\nFrom the premises, we also know that orchestras are led by conductors (P8) and Beethoven leads the Vienna Music Society (P9). This means that Beethoven is a conductor. \n\nFrom the premises, we also know that composers write music pieces (P2) and Beethoven wrote Symphony No. 9 (P3). This means that Beethoven is a composer. \n\nHowever, from the premises, we do not know whether Beethoven is the conductor of all orchestras or just the Vienna Music Society. But we do know that some orchestras have conductors who are also composers (the Vienna Music Society has Beethoven as both its conductor and composer). Therefore, it is possible that some orchestras have conductors who are also composers and can write music pieces. \n\nThus, from the premises, we can conclude that some orchestras (such as the Vienna Music Society) can premiere music pieces, which is the conclusion. \n\nTherefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 31,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 32,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 33,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 34,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 35,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the first premise, we know that if a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis.\n2. The second premise tells us that everyone who lost to Iga \u015awi\u0105tek is ranked highly by the Women's Tennis Association.\n3. The third premise states that all female tennis players at Roland Garros 2022 lost to Iga \u015awi\u0105tek.\n4. The fourth premise tells us that either female tennis players at Roland Garros 2022 or male tennis players at Roland Garros 2022 are among the players at the tournament.\n5. The fifth premise states that all male tennis players at Roland Garros 2022 lost to Rafael Nadal.\n6. The sixth premise tells us that if Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022.\n\nFrom the above premises, we can conclude that Coco Gauff is a female tennis player at Roland Garros 2022 (because if she were a male tennis player, she would have lost to Rafael Nadal, not Iga \u015awi\u0105tek). Since Coco Gauff is a female tennis player at Roland Garros 2022, she is ranked highly by the Women's Tennis Association (by the second premise). Therefore, by the first premise, Coco Gauff is among the most active players in major tennis.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"All female tennis players at Roland Garros 2022 lost to Iga \u015awi\u0105tek\", we can infer that Iga \u015awi\u0105tek is a female tennis player at Roland Garros 2022.\n2. From the premise \"Everyone who lost to Iga \u015awi\u0105tek is ranked highly by the Women's Tennis Association\", we can infer that Iga \u015awi\u0105tek is ranked highly by the Women's Tennis Association.\n3. From the premise \"If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis\", we can infer that Iga \u015awi\u0105tek is among the most active players in major tennis.\n4. From the premise \"Either female tennis players at Roland Garros 2022 or male tennis players at Roland Garros 2022\", we know that Coco Gauff is a female tennis player at Roland Garros 2022.\n5. From the premise \"If Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022\", we know that Coco Gauff is not a male tennis player at Roland Garros 2022.\n6. From the premise \"All female tennis players at Roland Garros 2022 lost to Iga \u015awi\u0105tek\", we can infer that Coco Gauff lost to Iga \u015awi\u0105tek.\n7. From the premise \"Everyone who lost to Iga \u015awi\u0105tek is ranked highly by the Women's Tennis Association\", we can infer that Coco Gauff is ranked highly by the Women's Tennis Association.\n8. From the premise \"If a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis\", we can infer that Coco Gauff is among the most active players in major tennis.\n\nTherefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that all female tennis players at Roland Garros 2022 lost to Iga \u015awi\u0105tek (premise 3), and everyone who lost to Iga \u015awi\u0105tek is ranked highly by the Women's Tennis Association (premise 2). Therefore, all female tennis players at Roland Garros 2022 are ranked highly by the Women's Tennis Association.\n\n2. From the premises, we also know that Coco Gauff is either a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal (premise 5). Since Coco Gauff is a female tennis player at Roland Garros 2022 (from premise 4), she must be a player who is ranked highly by the Women's Tennis Association (from step 1).\n\n3. From premise 5, if Coco Gauff is a player who is ranked highly by the Women's Tennis Association or a player who lost to Rafael Nadal, then Coco Gauff is not a male tennis player at Roland Garros 2022. Since Coco Gauff is a player who is ranked highly by the Women's Tennis Association (from step 2), she is not a male tennis player at Roland Garros 2022.\n\n4. From premise 1, if a player is ranked highly by the Women's Tennis Association, then they are among the most active players in major tennis. Since Coco Gauff is a player who is ranked highly by the Women's Tennis Association (from step 2), Coco Gauff is among the most active players in major tennis.\n\nTherefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 36,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 37,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 38,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 39,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 40,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 41,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 42,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 43,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 44,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 45,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 46,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 47,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 48,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 49,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 50,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 51,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 52,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 53,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 54,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 55,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 56,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 57,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 58,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 59,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>\n\nThis conclusion is uncertain because the premises do not provide any information about the endowments of other educational institutions. The statement only mentions that Yale University's endowment was valued at $42.3 billion, but it does not provide any comparison with other educational institutions. Therefore, it cannot be determined with certainty whether Yale University has the largest university endowment of any educational institution.",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nThe conclusion states that Yale University has the largest university endowment of any educational institution.  The premises provide evidence that Yale University's endowment was valued at $42.3 billion, but they do not provide information about whether this is the largest among all educational institutions.  However, the premises do not contain any information that would contradict this conclusion, so we can conclude that the conclusion follows from the premises.",
+   "<EVALUATE>\nUncertain\n</EVALUATE>\n\nThis conclusion is uncertain because the premises do not provide any information about the endowments of other educational institutions. While it is stated that Yale University's endowment was valued at $42.3 billion, it does not provide any information about whether this is the largest endowment among all educational institutions.",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 60,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 61,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 62,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 63,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 64,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 65,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 66,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 67,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 68,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 69,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 70,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we know that if people order takeout frequently in college, then they work in student jobs on campus (P2).\n2. We also know that people either order takeout frequently in college or enjoy the dining hall meals and recipes (P3).\n3. If people enjoy the dining hall meals and recipes, then they are not picky eaters (P4).\n4. If people enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls (P5).\n5. From P3, we can infer that Mary either orders takeout frequently in college or enjoys the dining hall meals and recipes.\n6. If Mary enjoys the dining hall meals and recipes, then she is not picky (P4) and she spends a lot of her time eating and catching up with friends in the campus dining halls (P5).\n7. If Mary orders takeout frequently in college, then she works in student jobs on campus (P2).\n8. If Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition (P6).\n9. From P6, we can infer that if Mary is picky, then she does not need to earn money to help pay for her college tuition.\n10. From P1, we can infer that if Mary needs to earn money to help pay for her college tuition, then she works in student jobs on campus.\n11. Combining steps 8 and 10, we can infer that if Mary is picky, then she works in student jobs on campus.\n12. From P2, we can infer that if Mary works in student jobs on campus, then she orders takeout frequently in college.\n13. From P3, we can infer that if Mary orders takeout frequently in college, then she either is not picky or enjoys the dining hall meals and recipes.\n14. Combining steps 11 and 13, we can infer that if Mary is picky, then she either is not picky or enjoys the dining hall meals and recipes.\n15. Therefore, we can conclude that Mary either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls (by P5).\n\nThe conclusion follows from the premises, so the evaluation is \"True\".",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we know that \"If people order takeout frequently in college, then they work in student jobs on campus.\" and \"If people work in student jobs on campus, then they need to earn money to help pay for their college tuition.\" This means that if Mary orders takeout frequently in college, she works in student jobs on campus, and therefore, she needs to earn money to help pay for her college tuition.\n\n2. We also know that \"People either order takeout frequently in college or enjoy the dining hall meals and recipes.\" This means that Mary is either a takeout frequenter or an enjoyer of dining hall meals and recipes.\n\n3. If Mary is an enjoyer of dining hall meals and recipes, then she is not picky (from the premise \"If people enjoy the dining hall meals and recipes, then they are not picky eaters.\") and she spends a lot of her time eating and catching up with friends in the campus dining halls (from the premise \"If people enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\").\n\n4. If Mary is a takeout frequenter, then she works in student jobs on campus (from the premise \"If people order takeout frequently in college, then they work in student jobs on campus.\") and needs to earn money to help pay for her college tuition (from the premise \"If people work in student jobs on campus, then they need to earn money to help pay for their college tuition.\"). This means that Mary is neither picky nor needs to earn money to help pay for her college tuition (from the premise \"If Mary works in student jobs on campus and needs to earn money to help pay for her college tuition, then Mary is neither picky nor needs to earn money to help pay for her college tuition.\").\n\n5. Therefore, if Mary is picky, then she is an enjoyer of dining hall meals and recipes (from the premises \"People either order takeout frequently in college or enjoy the dining hall meals and recipes.\" and the previous conclusion). This means that Mary is not picky or she spends a lot of her time eating and catching up with friends in the campus dining halls (from the premises \"If people enjoy the dining hall meals and recipes, then they are not picky eaters.\" and \"If people enjoy the dining hall meals and recipes, then they spend a lot of their time eating and catching up with friends in the campus dining halls.\").\n\nTherefore, the conclusion \"Mary either is not a picky eater or, if she is, then she spends a lot of her time eating and catching up with friends in the campus dining halls.\" follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 71,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 72,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 73,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 74,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 75,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 76,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 77,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 78,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 79,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation: \n\nFrom the premises, we can infer the following:\n\n1. [BG] Books contain tons of knowledge.\n2. [BG] When a person reads a book, that person gains knowledge.\n3. [BG] If a person gains knowledge, they become smarter.\n\nWe are given that Harry read the book \"Walden\" by Henry Thoreau. \n\nUsing the premises, we can conclude that Harry gained knowledge by reading the book. \n\nSince \"Walden\" is the book that Harry read, we can conclude that \"Walden\" contains knowledge.\n\nTherefore, the conclusion \"Walden contains knowledge\" follows from the premises."
+  ]
+ },
+ {
+  "index": 80,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 81,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 82,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 83,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 84,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 85,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 86,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 87,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 88,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 89,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n1. From the premises, we know that all animals from Australia are loved by tourists (premise 2) and all quokka are animals from Australia (premise 3). Therefore, all quokka are loved by tourists.\n\n2. Since quokka are loved by tourists, and if animals are loved by tourists, then they are Max's favorite animals (premise 1), we can conclude that all quokka are Max's favorite animals.\n\n3. From premise 5, we know that all of Max's favorite animals are very fluffy. Therefore, all quokka are very fluffy.\n\n4. From premise 6, we know that all of Max's favorite animals love to sleep. Therefore, all quokka love to sleep.\n\n5. From premise 7, we know that if a koala is very fluffy, then the koala is not a quokka. However, this premise does not affect the conclusion.\n\n6. The conclusion states that if a koala is a quokka, then the koala either loves to sleep or is very fluffy. From steps 3 and 4, we know that all quokka love to sleep and are very fluffy. Therefore, the conclusion is true.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 90,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nThe conclusion \"Harry is a CEO\" follows from the premises. \n\nThe premises establish a chain of inferences: \n\n- Harry is a gentleman (from the premise \"Harry is a gentleman\").\n- All gentlemen are handsome (from the premise \"All gentlemen are handsome\").\n- All handsome people are not ugly (from the premise \"No ugly person is handsome\" by contrapositive).\n- All handsome people are not evil (from the premise \"A man is either kind or evil\" and \"All evil people are ugly\" by contrapositive).\n- All handsome people are kind (from the premise \"A man is either kind or evil\" and the previous point).\n- All CEOs are gentlemen (from the premise \"All CEOs are gentlemen\").\n- Therefore, all CEOs are handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are not evil (by transitive inference).\n- Therefore, all CEOs are not ugly (by transitive inference).\n- Therefore, all CEOs are handsome and not ugly (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind, handsome, and not ugly (by transitive inference).\n- Therefore, all CEOs are kind, handsome, and not evil (by transitive inference).\n- Therefore, all CEOs are kind, handsome, and not ugly (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind, handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference).\n- Therefore, all CEOs are kind and handsome (by transitive inference).\n- Therefore, all CEOs are kind (by transitive inference"
+  ]
+ },
+ {
+  "index": 91,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that Harry is a gentleman (Premise 6).\n2. We also know that all gentlemen are handsome (Premise 3).\n3. Therefore, Harry is handsome (by modus ponens).\n4. Since a man is either kind or evil (Premise 1) and no ugly person is handsome (Premise 2), we can conclude that Harry is either kind or handsome.\n5. However, we also know that all evil people are ugly (Premise 3), so if Harry were evil, he would be ugly, which contradicts the fact that he is handsome.\n6. Therefore, Harry cannot be evil, and hence he must be kind.\n7. Now, we need to determine whether Harry is a CEO. We know that all CEOs are gentlemen (Premise 4), and we already know that Harry is a gentleman (Premise 6).\n8. Therefore, Harry is a gentleman, and since all gentlemen are CEOs or kind (by contrapositive), Harry is either a CEO or kind.\n\nSince we have established that Harry is kind, we can conclude that Harry is indeed kind or a CEO, which matches the conclusion.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"A man is either kind or evil\", we can infer that a man is either kind, evil, or both. However, this premise does not exclude the possibility of a man being both kind and evil.\n\n2. From the premise \"No ugly person is handsome\", we can infer that a person who is not ugly must be handsome. However, this premise does not provide any information about a person being kind or evil.\n\n3. From the premise \"All evil people are ugly\", we can infer that a person who is evil must be ugly. However, this premise does not provide any information about a person being kind.\n\n4. From the premise \"All gentlemen are handsome\", we can infer that a person who is a gentleman must be handsome. However, this premise does not provide any information about a person being kind or evil.\n\n5. From the premise \"All CEOs are gentlemen\", we can infer that a person who is a CEO must be a gentleman. However, this premise does not provide any information about a person being kind or evil.\n\n6. From the premise \"Harry is a gentleman\", we can infer that Harry is handsome (from premise 4) and that Harry is not evil (from premise 3, since evil people are ugly and Harry is handsome).\n\n7. Since Harry is not evil, we can infer that Harry must be kind (from premise 1, which states that a man is either kind or evil).\n\n8. From the premise \"Harry is a gentleman\" and premise 5, we can infer that Harry is a CEO.\n\n9. Therefore, we can conclude that Harry is either kind or a CEO, which matches the conclusion.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we know that Harry is a gentleman (P1, P6, P7). \nSince all gentlemen are handsome (P3), Harry is handsome. \nSince no ugly person is handsome (P2), Harry is not ugly. \nSince all evil people are ugly (P4), Harry is not evil. \nSince a man is either kind or evil (P1), Harry is kind. \nTherefore, Harry is kind (P1) or a CEO (P7).",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we can deduce that Harry is handsome (since all gentlemen are handsome and Harry is a gentleman).\n2. Since Harry is handsome, he cannot be ugly (because no ugly person is handsome).\n3. Therefore, Harry must be kind (since a man is either kind or evil and Harry is not ugly).\n4. Alternatively, we can also deduce that Harry is a CEO (since all CEOs are gentlemen and Harry is a gentleman). \n5. Therefore, the conclusion \"Harry is kind or a CEO\" follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 92,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"A man is either kind or evil,\" we can infer that Harry is either kind or evil (since Harry is a man).\n2. From the premise \"All evil people are ugly\" and the fact that Harry is either evil or kind, we can infer that if Harry is evil, then Harry is ugly.\n3. From the premise \"No ugly person is handsome\" and the fact that Harry is either ugly or handsome, we can infer that if Harry is handsome, then Harry is not ugly.\n4. From the premise \"All gentlemen are handsome\" and the fact that Harry is a gentleman, we can infer that Harry is handsome.\n5. From the premise \"All CEOs are gentlemen\" and the fact that Harry is a gentleman, we can infer that Harry is a CEO.\n6. Combining the facts that Harry is either evil or kind, and that Harry is handsome (and therefore not ugly), we can infer that Harry is kind (since Harry is not evil).\n7. From the conclusion, we can infer that if Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO. Since we have already established that Harry is kind and a CEO, this conclusion is true.\n\nNote: The conclusion is a conditional statement, and it is true if the antecedent (the \"if\" part) is false. Since we have established that Harry is kind (and therefore not evil), the antecedent of the conclusion is false, making the conclusion true.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premise \"A man is either kind or evil\", we can infer that a man is either kind or evil, but not both.\n\n2. From the premise \"No ugly person is handsome\", we can infer that an ugly person is not handsome.\n\n3. From the premise \"All evil people are ugly\", we can infer that an evil person is ugly.\n\n4. From the premise \"All gentlemen are handsome\", we can infer that a gentleman is handsome.\n\n5. From the premise \"All CEOs are gentlemen\", we can infer that a CEO is a gentleman.\n\n6. From the premise \"Harry is a gentleman\", we can infer that Harry is handsome.\n\n7. Now, let's consider the conclusion: \"If Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO.\"\n\n   - If Harry is both evil and ugly, then Harry is ugly (from step 3) and evil (from step 3). Since Harry is handsome (from step 6), this case is impossible.\n   \n   - If Harry is neither evil nor ugly, then Harry is not evil (so Harry is kind, from step 1) and Harry is not ugly (so Harry is handsome, from step 2). Since Harry is a gentleman (from step 6), and all gentlemen are handsome (from step 4), Harry is a gentleman. But we already know that Harry is a gentleman, so this case is true.\n   \n   - If Harry is neither kind nor ugly, then Harry is not evil (from step 1). Since Harry is handsome (from step 6), and all handsome people are either kind or gentlemen (from step 2 and step 4), Harry must be a gentleman. But we already know that Harry is a gentleman, so this case is true.\n\n   - If Harry is both evil and handsome, then Harry is evil (from step 3) and Harry is handsome (from step 6). Since Harry is a gentleman (from step 6), and all gentlemen are handsome (from step 4), Harry is a gentleman. But we already know that Harry is a gentleman, so this case is true.\n\n   - If Harry is neither evil nor handsome, then Harry is not evil (from step 1). Since Harry is a gentleman (from step 6), and all gentlemen are handsome (from step 4), Harry is handsome. But we already know that Harry is handsome, so this case is true.\n\nSince all possible cases lead to the conclusion that Harry is neither kind nor a CEO, the conclusion is true.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we can infer that Harry is handsome, since he is a gentleman (All gentlemen are handsome) and all CEOs are gentlemen (All CEOs are gentlemen), and we know Harry is a gentleman (Harry is a gentleman).\n\n2. Since all evil people are ugly (All evil people are ugly) and all ugly people are not handsome (No ugly person is handsome), we can conclude that Harry is not evil.\n\n3. Since Harry is handsome (from step 1) and all handsome people are not ugly (No ugly person is handsome), we can conclude that Harry is not ugly.\n\n4. Since Harry is either kind or evil (A man is either kind or evil) and we know Harry is neither evil (from step 2) nor ugly (from step 3), it follows that Harry is kind.\n\n5. The conclusion states that if Harry is either both evil and ugly, or neither evil nor ugly, then Harry is neither kind nor a CEO. However, we have already determined that Harry is kind (from step 4) and a CEO (All CEOs are gentlemen, Harry is a gentleman), which means the antecedent of the conclusion is true (Harry is neither both evil and ugly, nor neither evil nor ugly). Therefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 93,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 94,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 95,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 96,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 97,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 98,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 99,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 100,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 101,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 102,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we can deduce the following:\n\n1. Barutin Cove is located on Snow Island.\n2. Snow Island is part of the South Shetland Islands.\n3. The South Shetland Islands are considered part of Antarctica.\n4. By the given rule, if A is located in B and B is located in C, then A is located in C. Therefore, Barutin Cove is located in Antarctica.\n\nAlso, we know that Barutin Cove is named after the Bulgarian settlement of Barutin.\n\nTherefore, we can conclude that there is at least one cove in Antarctica named after a place in Bulgaria, which is True."
+  ]
+ },
+ {
+  "index": 103,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 104,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 105,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 106,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 107,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 108,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 109,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 110,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"All mammals are animals\" and \"All monkeys are mammals\", we can infer that all monkeys are animals.\n2. From the premise \"An animal is either a monkey or a bird\", we can infer that Rock is either a monkey or a bird, but we cannot conclude this directly because the premise does not mention Rock.\n3. However, we can infer that Rock is not a monkey because the premise \"All monkeys are mammals\" and \"All mammals are animals\" implies that all monkeys are animals, and \"An animal is either a monkey or a bird\" implies that Rock is either a monkey or a bird, so we can conclude that Rock is not a monkey.\n4. From the premise \"If Rock is neither a fly nor a bird, then Rock neither flies nor breathes\", we can conclude that Rock is either a fly or a bird.\n5. However, we can also infer that Rock is not a bird because the premise \"All birds fly\" implies that if Rock is a bird, then it flies.\n6. From the premise \"If Rock is neither a fly nor a bird, then Rock neither flies nor breathes\", we can conclude that Rock flies.\n7. From the premise \"If something can fly, then it has wings\", we can conclude that Rock has wings.\n8. However, this conclusion contradicts the conclusion \"Rock does not have wings\" in the conclusion.\n\nTherefore, the conclusion \"Rock does not have wings\" does not follow from the premises, and we can conclude that it is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nThe conclusion \"Rock does not have wings\" follows from the premises. \n\nFrom the premises, we know that Rock is neither a fly nor a bird. \n\nUsing the conditional statement \"If something can fly, then it has wings\", we can infer that if Rock is not a fly, then Rock does not have wings. \n\nHowever, since we already know that Rock is neither a fly nor a bird, we can directly conclude that Rock does not have wings.\n\nTherefore, the conclusion is True.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can conclude that Rock is an animal (since it neither flies nor breathes, but it does breathe). \nSince Rock is an animal, and an animal is either a monkey or a bird, Rock is either a monkey or a bird.\nHowever, since Rock is neither a fly nor a bird, it must be a monkey.\nAs a monkey, Rock is a mammal.\nSince Rock is a mammal, and all mammals are animals, Rock is an animal.\nSince Rock is an animal, it must be a monkey or a bird.\nSince Rock is not a bird, it must be a monkey.\nAs a monkey, Rock has wings (since all mammals, including monkeys, have wings).\nTherefore, the conclusion \"Rock does not have wings\" is False.",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 111,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 112,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 113,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 114,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 115,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 116,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 117,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 118,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 119,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 120,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 121,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nTo evaluate the conclusion, we can analyze the premises step by step:\n\n1. If a cartoon character is funny, then it is popular. (Premise 1)\n2. If a cartoon character is ugly, then it is not popular. (Premise 2)\n3. If a cartoon character is loved by children, then it is funny. (Premise 3)\n4. If a cartoon character is from The Simpsons, then it is loved by children. (Premise 4)\n5. If a cartoon character is yellow, then it is from The Simpsons. (Premise 5)\n6. Ben is either from The Simpsons or funny. (Premise 6)\n\nFrom Premise 6, we know that Ben is either from The Simpsons or funny. If Ben is from The Simpsons, then he is loved by children (Premise 4). If Ben is funny, then he is popular (Premise 1), and since being ugly is the only reason for not being popular (Premise 2), Ben is not ugly. Also, if Ben is funny, then he is loved by children (Premise 3). Therefore, regardless of whether Ben is from The Simpsons or funny, the conclusion that Ben is loved by children follows. \n\nSo, the conclusion \"Ben is loved by children\" is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can deduce that if a cartoon character is from The Simpsons, then it is loved by children (Premise 4) and if a cartoon character is yellow, then it is from The Simpsons (Premise 5). Since Ben is yellow (not explicitly stated, but we can infer it from the fact that it is not mentioned that Ben is not yellow), we can conclude that Ben is from The Simpsons.\n\nAlso, from the premises, we can deduce that if a cartoon character is from The Simpsons, then it is loved by children (Premise 4). Therefore, since Ben is from The Simpsons, we can conclude that Ben is loved by children.\n\nAdditionally, we can deduce that if a cartoon character is funny, then it is popular (Premise 1) and if a cartoon character is ugly, then it is not popular (Premise 2). We can also deduce that if a cartoon character is loved by children, then it is funny (Premise 3). Since Ben is either from The Simpsons or funny (Premise 7), and we have already concluded that Ben is loved by children, we can also conclude that Ben is funny.\n\nHowever, we do not have any information that contradicts the conclusion that Ben is loved by children. Therefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's a step-by-step explanation:\n\n1. From the premises, we know that if a cartoon character is funny, then it is popular. (Premise 1)\n2. We also know that if a cartoon character is loved by children, then it is funny. (Premise 3)\n3. Therefore, if a cartoon character is loved by children, then it is popular. (Modus ponens, using premises 1 and 3)\n4. Additionally, we know that if a cartoon character is from The Simpsons, then it is loved by children. (Premise 4)\n5. We also know that if a cartoon character is yellow, then it is from The Simpsons. (Premise 5)\n6. Since Ben is yellow, we can conclude that Ben is from The Simpsons. (Modus ponens, using premises 5)\n7. From step 4, we know that if Ben is from The Simpsons, then Ben is loved by children. (Premise 4)\n8. Therefore, since Ben is from The Simpsons (step 6), we can conclude that Ben is loved by children. (Modus ponens, using premises 4 and 6)\n9. Finally, we know that Ben is either from The Simpsons or funny. (Premise 7)\n10. Since we've already concluded that Ben is from The Simpsons (step 6), we can also conclude that Ben is not funny (by contrapositive of premise 1).\n11. Therefore, since Ben is not funny, we can conclude that Ben is loved by children (by transitivity of premises 3, 6, and 8).\n\nThe conclusion \"Ben is loved by children\" follows logically from the premises, making it a True conclusion.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can deduce that Ben is either from The Simpsons or funny. \n\n1. If a cartoon character is yellow, then it is from The Simpsons. \n   Since Ben is yellow, we can conclude that Ben is from The Simpsons.\n\n2. If a cartoon character is from The Simpsons, then it is loved by children.\n   Since Ben is from The Simpsons, we can conclude that Ben is loved by children.\n\nTherefore, we can conclude that Ben is loved by children, which is the conclusion.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nWe can deduce that Ben is loved by children as follows:\n1. If a cartoon character is yellow, then it is from The Simpsons. (Premise)\n2. If a cartoon character is from The Simpsons, then it is loved by children. (Premise)\n3. Therefore, if a cartoon character is yellow, then it is loved by children. (Modus Ponens)\n4. Ben is either from The Simpsons or funny. (Premise)\n5. If Ben is funny, then Ben is loved by children. (Premise)\n6. Therefore, if Ben is funny, then Ben is loved by children or Ben is from The Simpsons. (Disjunctive Syllogism)\n7. Therefore, if Ben is yellow, then Ben is loved by children. (From steps 3 and 6)\n8. We cannot determine whether Ben is yellow or not, but we know that if Ben is yellow, then Ben is loved by children.\n9. Therefore, we cannot determine whether Ben is loved by children or not, but we know that if Ben is not yellow, then Ben is not loved by children. (Contrapositive)\n10. We know that if a cartoon character is ugly, then it is not popular. (Premise)\n11. We know that if a cartoon character is not popular, then it is not funny. (From the first premise)\n12. Therefore, if a cartoon character is ugly, then it is not funny. (Modus Ponens)\n13. We know that if a cartoon character is not funny, then it is not loved by children. (Premise)\n14. Therefore, if a cartoon character is ugly, then it is not loved by children. (Modus Ponens)\n15. We know that Ben is either from The Simpsons or funny. (Premise)\n16. Therefore, Ben is not ugly. (From steps 14 and 15)\n17. We know that if a cartoon character is yellow, then it is from The Simpsons. (Premise)\n18. Therefore, if Ben is yellow, then Ben is from The Simpsons. (Modus Ponens)\n19. We know that if a cartoon character is from The Simpsons, then it is loved by children. (Premise)\n20. Therefore, if Ben is yellow, then Ben is loved by children. (Modus Ponens)\n21. From steps 8 and 20, we know that Ben is loved by children if Ben is yellow or Ben is not ugly.\n22. Since we know that Ben is not ugly (from step 16), we can conclude that Ben is loved by children if Ben is yellow.\n23. Therefore, we can conclude that Ben is loved by children if Ben is yellow or Ben is funny.\n24. Since we know that Ben is either from The Simpsons or funny (from premise), we can conclude that Ben is loved by children.\n\nTherefore, the conclusion \"Ben is loved by children\" follows from the premises."
+  ]
+ },
+ {
+  "index": 122,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that if a cartoon character is funny, then it is popular (premise 1). \n2. We also know that if a cartoon character is loved by children, then it is funny (premise 3). \n3. Therefore, if a cartoon character is loved by children, then it is popular (by transitive property). \n4. We also know that if a cartoon character is from The Simpsons, then it is loved by children (premise 4). \n5. Therefore, if a cartoon character is from The Simpsons, then it is popular (by transitive property). \n6. We also know that if a cartoon character is yellow, then it is from The Simpsons (premise 5). \n7. Therefore, if a cartoon character is yellow, then it is popular (by transitive property). \n8. We are given that Ben is either from The Simpsons or funny (premise 6). \n9. Since being from The Simpsons or funny implies being popular, we know that Ben is popular (by disjunction).\n10. We are given that if a cartoon character is not popular, then it is ugly (premise 2). \n11. Therefore, if Ben is not ugly, then Ben is popular (by contrapositive). \n12. Since we already know that Ben is popular (from step 9), we can conclude that Ben is not ugly (by contrapositive). \n13. We are given that if a cartoon character is yellow, then it is popular (from step 7). \n14. Therefore, if Ben is yellow, then Ben is popular (by transitive property). \n15. Since we already know that Ben is popular (from step 9), we can conclude that Ben is yellow (by contrapositive). \n16. Therefore, Ben is yellow or not ugly (from steps 12 and 15). \n17. Since being yellow or not ugly implies being yellow or not ugly, we can conclude that Ben is yellow or not ugly is equivalent to Ben is yellow or not ugly (by tautology). \n18. We are given that Ben is either from The Simpsons or funny (premise 6). \n19. Since being from The Simpsons implies being yellow (from premise 5), we know that being from The Simpsons or funny implies being yellow or funny (by disjunction). \n20. We know that being yellow or funny implies being yellow or not ugly (from steps 13 and 15). \n21. Therefore, being from The Simpsons or funny implies being yellow or not ugly (by transitive property). \n22. Since being from The Simpsons or funny implies being yellow or not ugly, we can conclude that Ben is yellow or not ugly (from step 18). \n23. Since we already know that Ben is yellow or not ugly (from step 16), we can conclude that Ben is yellow or not ugly is equivalent to Ben is yellow or not ugly (by tautology). \n24. Therefore, we have two equivalent statements: Ben is yellow or not ugly (from steps 16 and 22). \n25. Since Ben is yellow or not ugly implies Ben is ugly or yellow (by contrapositive), we can conclude that Ben is ugly or yellow (from step 24). \n26. Therefore, the conclusion \"Ben is ugly or yellow\" follows from the premises.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 123,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we can derive the following:\n\n1. If a cartoon character is loved by children, then it is funny. (Premise 3)\n2. If a cartoon character is from The Simpsons, then it is loved by children. (Premise 4)\n3. If a cartoon character is yellow, then it is from The Simpsons. (Premise 5)\n4. If a cartoon character is yellow, then it is loved by children. (from 2 and 3)\n5. If a cartoon character is yellow, then it is funny. (from 1 and 4)\n\nWe also know that Ben is either from The Simpsons or funny. (Premise 6)\n\nNow, let's consider the conclusion: Ben is either yellow and ugly or neither yellow nor ugly.\n\nWe can derive the following:\n\n1. If Ben is from The Simpsons, then he is loved by children. (from 2)\n2. If Ben is loved by children, then he is funny. (from 1)\n3. If Ben is funny, then he is popular. (from 1)\n4. If Ben is yellow, then he is from The Simpsons. (from 3)\n5. If Ben is yellow, then he is funny. (from 4)\n6. If Ben is yellow, then he is popular. (from 3 and 5)\n7. If Ben is yellow, then he is not ugly. (from 2 and 6)\n\nNow, let's consider the two cases:\n\nCase 1: Ben is yellow.\nThen, from (7), we know that Ben is not ugly. So, Ben is either yellow and not ugly or neither yellow nor ugly.\n\nCase 2: Ben is not yellow.\nThen, from (2), we know that Ben is not from The Simpsons. So, Ben is not yellow and not ugly.\n\nIn both cases, we can conclude that Ben is either yellow and not ugly or neither yellow nor ugly.\n\nSince Ben is not ugly is equivalent to Ben is not ugly and Ben is not yellow (by the law of excluded middle), we can conclude that Ben is either yellow and not ugly or neither yellow nor ugly.\n\nThis conclusion is equivalent to the original conclusion: Ben is either yellow and ugly or neither yellow nor ugly.\n\nTherefore, the conclusion follows from the premises, and the answer is True."
+  ]
+ },
+ {
+  "index": 124,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 125,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 126,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 127,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we know that \"A person either studys or teaches.\" and \"No young person teaches.\" Since Jerry neither teaches nor is a manager, and \"A person either studys or teaches\", we can conclude that Jerry studies.\n\nFrom the premises, we know that \"If someone studies, then they are a student.\" Since Jerry studies, we can conclude that Jerry is a student.\n\nFrom the premises, we know that \"Rose is young or a student.\" This premise does not directly provide information about Jerry. However, we can use the fact that Jerry is a student to evaluate the conclusion.\n\nThe conclusion is \"Jerry is not young.\" If Jerry is a student, and \"Rose is young or a student\", it does not necessarily mean that Jerry is not young. However, we can use the fact that \"No young person teaches\" to evaluate the conclusion. Since Jerry neither teaches nor is a manager, and \"No young person teaches\", we can conclude that Jerry is not young.\n\nTherefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"A person either studies or teaches,\" we can infer that Jerry either studies or teaches.\n2. Since Jerry neither teaches nor is a manager, and there is no other option for Jerry, Jerry must study.\n3. From the premise \"If someone studies, then they are a student,\" we can infer that Jerry is a student.\n4. From the premise \"Rose is young or a student,\" we can infer that if someone is a student, then they are not young.\n5. Since Jerry is a student, Jerry is not young.\n\nTherefore, the conclusion \"Jerry is not young\" follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can deduce that Jerry is a student (because he neither teaches nor is a manager, and a person either studies or teaches). Since Jerry is a student, he is a human (from the first premise). We also know that Rose is either young or a student (from the last premise). Since Jerry is a student, it is possible that Rose is young (because Jerry is a student). However, the fact that Rose is young or a student does not imply that Jerry is not young. In other words, we cannot conclude that Jerry is not young from the given premises. But, we can conclude that Jerry is not young from the given premises, because if Jerry were young, then he would be a student (from the fact that Rose is young or a student), which contradicts the fact that Jerry neither teaches nor is a manager (because a person who is a student and is young would be a student who is a young person, which would mean that Jerry teaches, because a person who is a student and is young would be a student who is a young person, and a young person teaches, which contradicts the fact that no young person teaches).",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 128,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can deduce the following:\n- Jerry is not a student (because Jerry neither teaches nor is a manager, and a person either studies or teaches).\n- Rose is a student (because Rose is young or a student, and Jerry is not a student).\n- Since Rose is a student, Rose is a human (because all students are humans).\n- Jerry is not a human (because Jerry is not a student and Jerry is not a manager, and there is no other category that Jerry belongs to).\n- Rose is not a manager (because Jerry is not a manager and Jerry is not a student, and a person either studies or teaches).\n- Therefore, Rose is a human.\n- The conclusion states \"Rose is a human or a manager\", which is true because we have established that Rose is a human.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that \"All students are humans\" and \"A person either studies or teaches\". This means that every human is either a student or a teacher.\n\n2. We also know that \"No young person teaches\". This implies that if a person is young, they must be a student.\n\n3. Given that \"Rose is young or a student\", we can conclude that Rose is either a young person or a student.\n\n4. Since students are humans (from the first premise), and Rose is either a young person or a student, it follows that Rose is a human.\n\n5. The conclusion \"Rose is a human or a manager\" is true because we have established that Rose is a human. The possibility of Rose being a manager is not directly contradicted by the premises, so it is a valid possibility. Therefore, the conclusion follows from the premises.\n\nNote: The conclusion could be false if Rose is a manager but not a human, which would contradict the first premise. However, this is not directly implied by the premises, so we cannot conclude that the conclusion is false.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we know that Rose is either a student (from \"Rose is young or a student\") or young (from \"Rose is young or a student\"). \n2. Since \"All students are humans\" and \"If someone studies, then they are a student\", we can infer that all students are humans.\n3. From \"A person either studies or teaches\", we know that a person is either a student or a teacher.\n4. Since \"No young person teaches\", we know that a young person is not a teacher.\n5. Therefore, if Rose is young, she is not a teacher (from \"No young person teaches\").\n6. From \"Jerry neither teaches nor is a manager\", we know that being a manager is not related to teaching, and we cannot infer that Jerry is a manager.\n7. Therefore, we cannot directly conclude that Rose is a human or a manager from the premises.\n8. However, we know that Rose is either a student or young (from \"Rose is young or a student\"). \n9. If Rose is a student, then she is a human (from \"All students are humans\").\n10. If Rose is young, then she is a human (from \"All students are humans\").\n11. Since Jerry neither teaches nor is a manager (from \"Jerry neither teaches nor is a manager\"), we cannot directly conclude that Rose is a manager.\n12. However, we cannot conclude that Rose is not a manager from the premises.\n13. Therefore, we can conclude that Rose is a human or a manager, because we can conclude that Rose is a human (from \"All students are humans\" and \"If someone studies, then they are a student\") and we cannot conclude that Rose is not a manager.\n\nSo, the conclusion \"Rose is a human or a manager\" follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that \"All students are humans\" and \"If someone studies, then they are a student.\" Therefore, we can conclude that \"If someone studies, then they are a human.\" \n\n2. We also know that \"A person either studies or teaches.\" So, we can conclude that \"Rose either studies or teaches.\"\n\n3. Since \"Rose is young or a student,\" and \"No young person teaches,\" we can conclude that \"If Rose studies, then Rose is a student.\"\n\n4. From the above steps, we can conclude that \"Rose is a human or a manager\" because:\n   - If Rose studies, then Rose is a student (from step 1 and 3), and since \"All students are humans,\" then Rose is a human.\n   - If Rose does not study, then Rose teaches (from step 2), and since \"Jerry neither teaches nor is a manager,\" we cannot directly conclude that Rose is a manager. However, we cannot conclude that Rose is not a manager either because there is no information that says Jerry and Rose are the only people who can be managers. Therefore, the statement \"Rose is a human or a manager\" is uncertain if we only consider the information about Jerry. However, given that \"Rose is young or a student\" and \"No young person teaches,\" we can safely assume that if Rose is young, then Rose is a student, and thus Rose is a human. In this case, the conclusion \"Rose is a human or a manager\" is true because it is equivalent to \"Rose is a human\" which is true."
+  ]
+ },
+ {
+  "index": 129,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can derive the following information:\n\n1. All students are humans (premise 1)\n2. If someone studies, then they are a student (premise 2)\n3. A person either studies or teaches (premise 3)\n4. No young person teaches (premise 4)\n5. Jerry neither teaches nor is a manager (premise 5)\n6. Rose is young or a student (premise 6)\n\nFrom (2) and (3), we can conclude that a person who studies is a student. \n\nFrom (4), we can conclude that Rose is not a teacher.\n\nFrom (5), we can conclude that Jerry is not a teacher.\n\nFrom (6), we can conclude that Rose is a student.\n\nSince a student is a human (from (1)), we can conclude that Rose is a human.\n\nNow, let's analyze the conclusion. The conclusion states that Rose is a human or Jerry is a manager.\n\nWe have already concluded that Rose is a human. \n\nWe also know that Jerry is not a teacher (from (5)). \n\nFrom (3), we can conclude that Jerry studies, since Jerry neither teaches nor studies (from (5)). \n\nFrom (2), we can conclude that Jerry is a student, since Jerry studies.\n\nFrom (1), we can conclude that Jerry is a human, since Jerry is a student.\n\nHowever, we also know that Jerry is not a manager (from (5)).\n\nTherefore, the conclusion is True, since Rose is a human and Jerry is a human.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premise \"A person either studies or teaches\", we can infer that Jerry either studies or teaches, since Jerry is a person and does not teach.\n2. From the premise \"If someone studies, then they are a student\", we can infer that Jerry is a student, since Jerry studies.\n3. From the premise \"All students are humans\", we can infer that Jerry is a human.\n4. From the premise \"Rose is young or a student\", we can infer that Rose is a human, since all students are humans.\n5. From the premises \"Jerry is a human\" and \"Jerry neither teaches nor is a manager\", we cannot infer that Jerry is a manager.\n6. However, we can conclude that the conclusion \"Rose is a human or Jerry is a manager\" is true, since we have already established that Rose is a human and we cannot conclude that Jerry is a manager, but we can conclude that the first part of the conclusion is true.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"A person either studys or teaches,\" we can conclude that Jerry studies, because it is given that Jerry neither teaches nor is a manager.\n2. From the premise \"If someone studies, then they are a student,\" we can conclude that Jerry is a student.\n3. From the premise \"All students are humans,\" we can conclude that Jerry is a human.\n4. From the premise \"Rose is young or a student,\" we can conclude that Rose is a student, because it is not given that Rose is young.\n5. From the premise \"All students are humans,\" we can conclude that Rose is a human.\n6. The conclusion \"Rose is a human or Jerry is a manager\" follows from the premises, because we have established that both Rose and Jerry are humans, and Jerry is not a manager.\n\nTherefore, the conclusion is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premise \"All students are humans\", we can conclude that if someone is a student, then they are a human.\n2. From the premise \"If someone studies, then they are a student\", we can conclude that if someone studies, then they are a human.\n3. From the premise \"A person either studies or teaches\", we can conclude that if a person does not teach, then they study.\n4. From the premise \"No young person teaches\", we can conclude that if a person is young, then they do not teach.\n5. From the premise \"Jerry neither teaches nor is a manager\", we can conclude that Jerry is not a manager.\n6. From the premise \"Rose is young or a student\", we can conclude that if Rose is not young, then she is a student.\n\nNow, let's evaluate the conclusion \"Rose is a human or Jerry is a manager\".\n\n1. If Rose is a student (from premise 6), then she is a human (from premise 1).\n2. If Rose is not young, then she is a student (from premise 6), and therefore a human.\n3. If Rose is young, then she is not a human (since humans cannot be young, as per the implicit assumption in the problem).\n4. Since Jerry is not a manager (from premise 5), we cannot conclude that Jerry is a manager.\n5. However, since Rose is either young or a student (from premise 6), and if she is a student, then she is a human (from premise 1), we can conclude that Rose is a human.\n\nTherefore, the conclusion \"Rose is a human or Jerry is a manager\" is True, regardless of whether Rose is young or not."
+  ]
+ },
+ {
+  "index": 130,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we can deduce the following:\n\n1. Jerry is not a student (because Jerry neither teaches nor is a manager, and a person either studies or teaches).\n2. Jerry is a human (because all students are humans).\n3. Rose is a student (because Rose is young or a student, and we cannot conclude that Rose is young, so Rose must be a student).\n4. Rose is a human (because all students are humans).\n\nTherefore, the conclusion \"It is not true that Rose is a student and Jerry is a human\" is False, because we can conclude that Rose is a student and Jerry is a human.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we can infer that Rose is a student or a young person (from the premise \"Rose is young or a student\").\n2. Since Jerry neither teaches nor is a manager, and a person either studies or teaches (from the premise \"A person either studys or teaches\"), we can conclude that Jerry studies.\n3. Therefore, Jerry is a student (from the premise \"If someone studies, then they are a student\").\n4. Since Jerry is a student, and all students are humans (from the premise \"All students are humans\"), we can conclude that Jerry is a human.\n5. Now, we can evaluate the conclusion \"It is not true that Rose is a student and Jerry is a human.\"\n6. From the premises, we know that Jerry is a student and a human (from steps 3 and 4).\n7. However, we cannot conclude that Rose is a student (from step 1, we only know that Rose is a student or a young person, but we don't know for sure that she is a student).\n8. Therefore, it is indeed true that it is not true that Rose is a student and Jerry is a human (because we cannot confirm that Rose is a student).\n\nNote: The conclusion is True because we can confirm that Jerry is a human, but we cannot confirm that Rose is a student.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\nFrom the premises, we know that:\n\n1. All students are humans.\n2. If someone studies, then they are a student.\n3. A person either studies or teaches.\n4. No young person teaches.\n5. Jerry neither teaches nor is a manager.\n6. Rose is young or a student.\n\nWe can infer that:\n\n* Jerry is not a human (because he is not a student, and he is not a manager, and managers are not necessarily humans).\n* Rose is either young or a student (from premise 6).\n\nNow, let's analyze the conclusion:\n\n\"It is not true that Rose is a student and Jerry is a human.\"\n\nWe know that Jerry is not a human, so this part of the conclusion is true.\n\nWe know that Rose is either young or a student. If Rose is young, then she is not a student (because no young person teaches, and students study, not teach). So, if Rose is young, then she is not a student.\n\nHowever, if Rose is a student, then she is a human (from premise 1). But we cannot conclude that Jerry is a human (because we already know that Jerry is not a human).\n\nTherefore, it is true that Jerry is not a human, and it is also true that Rose is not a student (because she is young). So, the conclusion is true."
+  ]
+ },
+ {
+  "index": 131,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 132,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 133,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 134,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the first premise, we can infer that if Remy works regularly and often at home, then they own a large desktop monitor at their home.\n2. From the second premise, we can infer that if Remy has a fully stocked and impressive home office, then they own a large desktop monitor at their home.\n3. Since we cannot directly infer Remy's work habits from the premises, we will use the third premise to infer that Remy spends their free time tidying and organizing the spaces in their home if they work regularly and often at home.\n4. From the fourth premise, we can infer that if Remy works regularly and often at home, then they visit the office supply store regularly.\n5. From the fifth premise, we can infer that if Remy spends their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon.\n6. From the sixth premise, we can infer that Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n7. Since Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home, we can conclude that Remy spends their free time tidying and organizing the spaces in their home if they do not go to bed late and wake up every day after noon.\n8. Since we can infer that Remy visits the office supply store regularly if they work regularly and often at home (from premise 4), and we can also infer that Remy spends their free time tidying and organizing the spaces in their home if they work regularly and often at home (from premise 3), we can conclude that Remy visits the office supply store regularly.\n\nTherefore, the conclusion follows from the premises, and the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\nFrom the premises, we can deduce the following:\n\n1. If people own a large desktop monitor at their home, then they work regularly and often at home. (Premise 1)\n2. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. (Premise 2)\n3. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. (Premise 3)\n4. All people who work regularly and often at home visit the office supply store regularly. (Premise 4)\n5. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. (Premise 5)\n6. Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. (Premise 6)\n\nFrom Premise 2 and Premise 3, we can conclude that all people who have a fully stocked and impressive home office spend their free time tidying and organizing the spaces in their homes.\n\nFrom Premise 5, we can conclude that all people who spend their free time tidying and organizing the spaces in their homes do not go to bed late and wake up every day after noon.\n\nFrom Premise 6, we can conclude that Remy either does not spend their free time tidying and organizing the spaces in their home or they do not go to bed late and wake up every day after noon.\n\nSince Remy either does not spend their free time tidying and organizing the spaces in their home or they do not go to bed late and wake up every day after noon, and from Premise 3, we can conclude that all people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes, it follows that Remy does not work regularly and often at home.\n\nHowever, from Premise 2, we can conclude that all people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. \n\nFrom Premise 1, we can conclude that all people who own a large desktop monitor at their home work regularly and often at home.\n\nTherefore, it follows that Remy either has a fully stocked and impressive home office or Remy does not own a large desktop monitor at their home.\n\nFrom Premise 4, we can conclude that all people who work regularly and often at home visit the office supply store regularly.\n\nFrom Premise 6, we can conclude that Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n\nWe know that Remy either does not spend their free time tidying and organizing the spaces in their home or they do not go to bed late and wake up every day after noon.\n\nTherefore, it follows that Remy visits the office supply store regularly.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. From the premises, we know that people who work regularly and often at home (let's call this property W) spend their free time tidying and organizing the spaces in their homes (property T) and visit the office supply store regularly (property O).\n2. We also know that people who own a large desktop monitor at their home (property M) work regularly and often at home (property W).\n3. Therefore, people who own a large desktop monitor at their home (property M) also spend their free time tidying and organizing the spaces in their homes (property T) and visit the office supply store regularly (property O).\n4. From the conclusion, we want to determine if Remy visits the office supply store regularly (property O).\n5. We are given that Remy either both goes to bed late and wakes up every day after noon (property B) and spends their free time tidying and organizing the spaces in their home (property T), or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n6. Since we know that people who spend their free time tidying and organizing the spaces in their homes (property T) do not go to bed late and wake up every day after noon (property B), the only possibility is that Remy does not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n7. However, we also know that people who work regularly and often at home (property W) spend their free time tidying and organizing the spaces in their homes (property T), and therefore do not go to bed late and wake up every day after noon (property B).\n8. Since Remy does not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home, and people who work regularly and often at home (property W) spend their free time tidying and organizing the spaces in their homes (property T), we can conclude that Remy does not work regularly and often at home.\n9. However, we know that people who own a large desktop monitor at their home (property M) work regularly and often at home (property W).\n10. Therefore, Remy does not own a large desktop monitor at their home.\n11. But we also know that people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home.\n12. Therefore, Remy does not have a fully stocked and impressive home office.\n13. However, we know that people who have a fully stocked and impressive home office are people who work regularly and often at home (property W).\n14. Therefore, Remy does not work regularly and often at home.\n15. But we also know that people who work regularly and often at home (property W) visit the office supply store regularly (property O).\n16. Therefore, Remy visits the office supply store regularly.\n\nThe conclusion follows from the premises, so the answer is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\nFrom the premises, we can infer the following:\n\n1. If people own a large desktop monitor at their home, then they work regularly and often at home. (Premise 1)\n2. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. (Premise 2)\n3. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. (Premise 3)\n4. All people who work regularly and often at home visit the office supply store regularly. (Premise 4)\n5. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. (Premise 5)\n6. Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. (Premise 6)\n\nFrom Premise 2 and Premise 6, we can infer that Remy has a fully stocked and impressive home office. \n\nFrom Premise 1 and the fact that Remy has a fully stocked and impressive home office, we can infer that Remy works regularly and often at home.\n\nFrom Premise 3, we can infer that Remy spends their free time tidying and organizing the spaces in their home.\n\nFrom Premise 5, we can infer that Remy does not go to bed late and wake up every day after noon.\n\nFrom Premise 6, we know that Remy does not spend their free time tidying and organizing the spaces in their home (since they do not go to bed late and wake up every day after noon). However, we already inferred that Remy does spend their free time tidying and organizing the spaces in their home. This is a contradiction, but it's actually a result of the conditional statement in Premise 6, which is not necessarily true. \n\nHowever, from Premise 3 and the fact that Remy works regularly and often at home, we can infer that Remy visits the office supply store regularly (Premise 4).\n\nTherefore, the conclusion that Remy visits the office supply store regularly is True.",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we can deduce that Remy works regularly and often at home (since they own a large desktop monitor at their home).\n2. Since Remy works regularly and often at home, they spend their free time tidying and organizing the spaces in their homes.\n3. However, the premises also state that Remy either spends their free time tidying and organizing the spaces in their home or does not go to bed late and wake up every day after noon.\n4. Since Remy spends their free time tidying and organizing the spaces in their home, they do not go to bed late and wake up every day after noon (by the 5th premise).\n5. Therefore, Remy does not go to bed late and wake up every day after noon.\n6. Since Remy does not go to bed late and wake up every day after noon, and they work regularly and often at home, we can conclude that Remy visits the office supply store regularly (by the 4th premise).\n\nTherefore, the conclusion follows from the premises, and the answer is True."
+  ]
+ },
+ {
+  "index": 135,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\n\nTo evaluate the conclusion, let's break down the premises and analyze the conclusion step by step.\n\n1. If people own a large desktop monitor at their home, then they work regularly and often at home. (Premise 1)\n2. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. (Premise 2)\n3. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. (Premise 3)\n4. All people who work regularly and often at home visit the office supply store regularly. (Premise 4)\n5. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. (Premise 5)\n6. Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. (Premise 6)\n\nFrom Premise 1, if Remy owns a large desktop monitor at their home, then they work regularly and often at home. From Premise 2, if Remy has a fully stocked and impressive home office, then they own a large desktop monitor at their home. From Premise 3, if Remy works regularly and often at home, then they spend their free time tidying and organizing the spaces in their home. From Premise 4, if Remy works regularly and often at home, then they visit the office supply store regularly.\n\nFrom Premise 5, if Remy spends their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. From Premise 6, Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n\nNow, let's analyze the conclusion: Remy has a fully stocked and impressive home office and also visits the office supply store regularly.\n\nFrom Premise 2, if Remy has a fully stocked and impressive home office, then they own a large desktop monitor at their home. From Premise 4, if Remy owns a large desktop monitor at their home, then they visit the office supply store regularly. Therefore, if Remy has a fully stocked and impressive home office, then they also visit the office supply store regularly.\n\nHowever, Premise 6 states that Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. Since Premise 5 states that if Remy spends their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon, it implies that Remy cannot both go to bed late and wake up every day after noon and spend their free time tidying and organizing the spaces in their home.\n\nTherefore, Remy must not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. However, this does not necessarily mean that Remy has a fully stocked and impressive home office and visits the office supply store regularly.\n\nSince we cannot conclude that Remy has a fully stocked and impressive home office and visits the office supply store regularly, the conclusion is uncertain.\n\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 136,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the first premise, we know that people who own a large desktop monitor at their home work regularly and often at home.\n2. From the second premise, we know that people who have a fully stocked and impressive home office own a large desktop monitor at their home. Therefore, people who have a fully stocked and impressive home office also work regularly and often at home.\n3. From the third premise, we know that people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes.\n4. From the fourth premise, we know that people who work regularly and often at home visit the office supply store regularly.\n5. From the fifth premise, we know that people who spend their free time tidying and organizing the spaces in their home do not go to bed late and wake up every day after noon.\n6. The conclusion states that if Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\n\nFrom the premises, we know that if Remy visits the office supply store regularly, then Remy works regularly and often at home (from premise 4). Since people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes (from premise 3), it follows that Remy spends their free time tidying and organizing the spaces in their home. Therefore, if Remy visits the office supply store regularly, then Remy does spend their free time tidying and organizing the spaces in their home, which contradicts the conclusion.\n\nHowever, we also know that if Remy goes to bed late and wakes up every day after noon, then Remy does not spend their free time tidying and organizing the spaces in their home (from premise 5). Therefore, if Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy does not spend their free time tidying and organizing the spaces in their home.\n\nNow, let's consider the other part of the conclusion: if Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\n\nFrom the premises, we know that people who work regularly and often at home have a fully stocked and impressive home office (from premise 2). Since we have already established that if Remy visits the office supply store regularly, then Remy works regularly and often at home, it follows that if Remy visits the office supply store regularly, then Remy has a fully stocked and impressive home office.\n\nHowever, we also know that if Remy goes to bed late and wakes up every day after noon, then Remy does not spend their free time tidying and organizing the spaces in their home (from premise 5). Since people who spend their free time tidying and organizing the spaces in their home have a fully stocked and impressive home office (from premise 2), it follows that if Remy does not spend their free time tidying and organizing the spaces in their home, then Remy does not have a fully stocked and impressive home office.\n\nTherefore, if Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office. The conclusion follows from the premises.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\n\nFrom the premises, we can infer the following:\n\n1. If people own a large desktop monitor at their home, then they work regularly and often at home. (Premise 1)\n2. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. (Premise 2)\n3. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. (Premise 3)\n4. All people who work regularly and often at home visit the office supply store regularly. (Premise 4)\n5. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. (Premise 5)\n6. Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. (Premise 6)\n\nFrom Premise 2 and Premise 6, we can infer that if Remy has a fully stocked and impressive home office, then Remy does not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home.\n\nNow, let's analyze the conclusion:\n\n\"If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\"\n\nFrom Premise 3, we know that all people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. From Premise 4, we know that all people who work regularly and often at home visit the office supply store regularly. Therefore, if Remy visits the office supply store regularly, then Remy works regularly and often at home, which implies that Remy spends their free time tidying and organizing the spaces in their home.\n\nHowever, from Premise 5, we know that if people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. This implies that Remy does not go to bed late and wake up every day after noon if Remy spends their free time tidying and organizing the spaces in their home.\n\nNow, let's analyze the conclusion in the context of the premises. The conclusion states that if Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\n\nFrom Premise 6, we know that Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. However, from the analysis above, we know that if Remy visits the office supply store regularly, then Remy spends their free time tidying and organizing the spaces in their home.\n\nTherefore, the conclusion is uncertain because it is not clear whether Remy has a fully stocked and impressive home office or not. If Remy visits the office supply store regularly, then Remy spends their free time tidying and organizing the spaces in their home, which implies that Remy does not have a fully stocked and impressive home office. However, if Remy does not visit the office supply store regularly, then it is possible that Remy has a fully stocked and impressive home office.\n\n</EVALUATE>",
+   "<EVALUATE>\n\nLet's break down the premises and conclusion:\n\n1. If people own a large desktop monitor at their home, then they work regularly and often at home. (Let's call this premise 1)\n2. All people who have a fully stocked and impressive home office are people who own a large desktop monitor at their home. (Let's call this premise 2)\n3. All people who work regularly and often at home spend their free time tidying and organizing the spaces in their homes. (Let's call this premise 3)\n4. All people who work regularly and often at home visit the office supply store regularly. (Let's call this premise 4)\n5. If people spend their free time tidying and organizing the spaces in their home, then they do not go to bed late and wake up every day after noon. (Let's call this premise 5)\n6. Remy either both goes to bed late and wakes up every day after noon and spends their free time tidying and organizing the spaces in their home, or they do not go to bed late and wake up every day after noon nor spend their free time tidying and organizing the spaces in their home. (Let's call this premise 6)\n\nThe conclusion is: If Remy either goes to bed late and wakes up every day after noon or visits the office supply store regularly, then Remy neither spends their free time tidying and organizing the spaces in their home nor has a fully stocked and impressive home office.\n\nLet's analyze the conclusion:\n\n- If Remy goes to bed late and wakes up every day after noon, then they don't spend their free time tidying and organizing the spaces in their home (by premise 5).\n- If Remy visits the office supply store regularly, then they work regularly and often at home (by premise 4), and therefore they spend their free time tidying and organizing the spaces in their home (by premise 3).\n\nNow, let's analyze the conclusion using the premises:\n\n- If Remy goes to bed late and wakes up every day after noon, then they don't spend their free time tidying and organizing the spaces in their home (by premise 5).\n- If Remy visits the office supply store regularly, then they don't spend their free time tidying and organizing the spaces in their home (by premise 3 and premise 4).\n- If Remy doesn't spend their free time tidying and organizing the spaces in their home, then they don't have a fully stocked and impressive home office (by premise 2).\n\nTherefore, the conclusion is True.\n\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 137,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 138,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 139,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 140,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the reasoning:\n\n1. From the premises, we can deduce that James is instructed by professor David (since he works in the lab).\n2. Since James is instructed by professor David, he must be taking the database course (premise 5).\n3. Now, let's consider the conclusion. It states that James either takes the database course or has a part-time job offered by the university.\n4. We already know that James takes the database course (step 2).\n5. If James takes the database course, then he must be a student who has a part-time job offered by the university (premise 2).\n6. Therefore, James either takes the database course (which we know is true) or has a part-time job offered by the university (which we deduced in step 5).\n7. Hence, the conclusion follows from the premises.",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nHere's the explanation:\n\n1. From the premises, we know that all students who have part-time jobs offered by the university are students who work in the library (Premise 2).\n2. We also know that James is a student working in the lab (Premise 7). Since all students working in the lab are instructed by professor David (Premise 5), James is a student instructed by professor David.\n3. As a result, James must be taking the database course, because all students instructed by professor David are taking the database course (Premise 4).\n4. Alternatively, we can also conclude that James has a part-time job offered by the university. This is because all students who have part-time jobs offered by the university are students who work in the library (Premise 2), and we already know that James is a student working in the lab (Premise 7).\n5. Therefore, we can conclude that James either takes the database course or has a part-time job offered by the university.\n\nNote that we don't need to consider Jack's information, because it's irrelevant to the conclusion we're trying to evaluate.",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 141,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 142,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 143,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 144,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 145,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 146,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 147,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 148,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 149,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 150,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 151,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 152,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 153,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 154,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 155,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 156,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 157,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 158,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 159,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 160,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 161,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\nFrom the premises, we can deduce the following:\n\n1. Tom is a pet owner (given)\n2. If someone owns a pet, then they love animals (premise)\n   => Tom loves animals (from 1 and 2)\n3. All animal lovers are nice to animals (premise)\n   => Tom is nice to animals (from 2 and 3)\n4. No one nice to animals is mean to animals (premise)\n   => Tom is not mean to animals (from 3)\n5. Some grumpy people are mean to animals (premise)\n   => It is possible that Tom is not grumpy (since Tom is not mean to animals)\n\nHowever, we cannot conclude that Tom is grumpy. The premise only states that some grumpy people are mean to animals, but it does not state that all mean people are grumpy. Therefore, we cannot conclude that Tom is grumpy.\n\nHowever, we can conclude that Tom is nice to animals and not mean to animals. From the premise \"No one nice to animals is mean to animals\", we can infer that Tom is not grumpy because if Tom were grumpy, then Tom would be mean to animals, which contradicts the premise.\n\nTherefore, the conclusion \"Tom is not a grumpy person and mean to animals\" is True."
+  ]
+ },
+ {
+  "index": 162,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 163,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\n\n1. Dani Shapiro is an American writer (premise).\n2. Dani Shapiro is born in American City (implied by \"If a person is born in American City, the person is American\", but not directly stated). However, since Dani Shapiro is an American writer and Boston is an American city (premise), it can be inferred that Dani Shapiro is not born in American City. This is because Dani Shapiro is an American writer, not necessarily an American citizen born in American City. Therefore, Dani Shapiro is not necessarily born in American City.\n3. However, it is given that Dani Shapiro is an American writer (premise) and Dani Shapiro is born in Boston which is an American city (premise). Dani Shapiro being an American writer is independent of whether she is born in American City or not. This is because the premise \"If a person is born in American City, the person is American\" only implies that being born in American City is one way to be American, but it does not mean that being an American writer requires being born in American City. Dani Shapiro being an American writer is enough to conclude that she is American, regardless of where she is born.\n4. Dani Shapiro wrote Family History (premise), and Family History is a novel (premise).\n5. Therefore, by the premise \"If a book is novel and it is written by a person, then the person is a novel writer\", Dani Shapiro is a novel writer.\n6. The fact that Dani Shapiro created a podcast called Family Secrets (premise) does not affect the conclusion that Dani Shapiro is a novel writer, because the premise only talks about writing novels, not creating podcasts.\n7. Therefore, the conclusion \"Dani Shapiro is a novel writer\" follows from the premises.",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 164,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 165,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 166,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 167,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>\n\nExplanation:\nFrom the premises, we can derive the following:\n\n1. Some basketball players are not American. (Premise)\n2. All basketball players are tall. (Premise)\n3. If someone is tall, they wear large shoes. (Premise)\n4. If someone wears large shoes, they wear large-sized clothes. (Premise)\n5. Yuri does not wear large-size clothes. (Premise)\n\nUsing modus ponens, we can conclude that Yuri does not wear large shoes (from 3 and 5).\nUsing modus ponens, we can conclude that Yuri is not tall (from 3 and the fact that Yuri does not wear large shoes).\n\nSince all basketball players are tall (from 2), Yuri is not a basketball player.\nFrom the premise \"Some basketball players are not American\", we can conclude that Yuri is not an American basketball player.\n\nTherefore, the conclusion \"Yuri is not an American basketball player\" follows from the premises."
+  ]
+ },
+ {
+  "index": 168,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 169,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 170,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 171,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 172,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 173,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 174,
+  "responses": [
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 175,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 176,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 177,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 178,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 179,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 180,
+  "responses": [
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nFalse\n</EVALUATE>",
+   "<EVALUATE>\nUncertain\n</EVALUATE>"
+  ]
+ },
+ {
+  "index": 181,
+  "responses": [
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>",
+   "<EVALUATE>\nTrue\n</EVALUATE>"
+  ]
+ }
+]
