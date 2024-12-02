@@ -1,6 +1,6 @@
 import torch
 from transformers import pipeline
-
+import re
 
 class CotModel:
 
@@ -195,3 +195,12 @@ Start your response with "<EVALUATE>". Then, write "Let's think step by step." T
             for r_responses, index in zip(batch_output, index_list)
         ]
         return b_generated_results
+
+    @staticmethod
+    def parse(text: str):
+        answer = re.findall(r"ANSWER:(.*?)</EVALUATE>", text, re.DOTALL)
+        answer = answer[0].strip() if len(answer) > 0 else ""
+        if answer not in ["True", "False", "Uncertain"]:
+            return "Error"
+        else:
+            return answer

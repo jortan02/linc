@@ -2,12 +2,14 @@ import torch
 from transformers import pipeline
 from nltk.sem.logic import LogicParser
 from nltk.inference.prover9 import Prover9
+from collections import Counter
 
+# import os
+# os.environ['PROVER9'] = '/uufs/chpc.utah.edu/common/home/u1283221/cs6964/linc/prover9/source/bin'
 
 class LincModel:
 
     def __init__(self, model_name: str, prompt_format: str = "FOLIO"):
-        self.prover = Prover9()
         self.model_name = model_name
         self.generator = pipeline(
             "text-generation",
@@ -19,26 +21,21 @@ class LincModel:
             case "FOLIO":
                 self.prompt_format = """\
 The following is a first-order logic (FOL) problem.
-The problem is to determine whether the conclusion follows from the premises.
-The premises are given in the form of a set of first-order logic sentences inside <PREMISES> tags.
-The conclusion is given in the form of a single first-order logic sentence inside <CONCLUSION> tags.
-The task is to translate each of the premises and conclusions into FOL expressions inside <EVALUATE> tags, so that the expressions can be evaluated by a theorem solver to determine whether the conclusion follows from the premises.
+The task is to translate each of the sentences into FOL expressions inside <EVALUATE> tags.
 Expressions should be adhere to the format of the Python NLTK package logic module.
 
 ### Examples:
 
 Example 1:
-<PREMISES>
+<SENTENCES>
 All dispensable things are environment-friendly.
 All woodware is dispensable.
 All paper is woodware.
 No good things are bad.
 All environment-friendly things are good.
 A worksheet is either paper or is environment-friendly.
-</PREMISES>
-<CONCLUSION>
 A worksheet is not dispensable.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: All dispensable things are environment-friendly.
@@ -58,16 +55,14 @@ FOL: -Dispensable(worksheet)
 </EVALUATE>
 
 Example 2:
-<PREMISES>
+<SENTENCES>
 A La Liga soccer team ranks higher than another if it receives more points.
 If two La Liga soccer teams recieve the same points, the team which recieves more points from the games between the two teams ranks higher.
 Real Madrid and Barcelona are both La Liga soccer teams.
 In La Liga 2021-2022, Real Madrid recieves 86 points and Barcelon recieves 73 points.
 In La Liga 2021-2022, Real Madrid and Barcelona both recieve 3 points from the games between them.
-</PREMISES>
-<CONCLUSION>
 In La Liga 2021-2022, Real Madrid ranks higher than Barcelona.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: A La Liga soccer team ranks higher than another if it receives more points.
@@ -85,17 +80,15 @@ FOL: HigherRank(realMadrid, barcelona)
 </EVALUATE>
 
 Example 3:
-<PREMISES>
+<SENTENCES>
 All athletes are good at sports.
 All Olympic gold medal winners are good athletes.
 No scientists are good at sports.
 All Nobel laureates are scientists.
 Amy is good at sports or Amy is an Olympic gold medal winner.
 If Amy is not a Nobel laureate, then Amy is not an Olympic gold medal winner.
-</PREMISES>
-<CONCLUSION>
 If Amy is not an Olympic gold medal winner, then Amy is a Nobel laureate.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: All athletes are good at sports.
@@ -115,7 +108,7 @@ FOL: -OlympicGoldMedalWinner(amy) -> NobelLaureate(amy)
 </EVALUATE>
 
 Example 4:
-<PREMISES>
+<SENTENCES>
 All people who are respected by others are people who contribute to the country. 
 If a person is respected by others, then he/she contributes to the country. 
 All people available to have a visit without any fees are those respected by others. 
@@ -124,10 +117,8 @@ All people who once were sentenced for thief stayed in prison for some time.
 All people who once stayed in prison for some time have a bad record in the local state. 
 James was either once sentenced for thief or stayed in prison for some time. 
 James is either with a bad record in the local state or respected by others. 
-</PREMISES>
-<CONCLUSION>
 James contributes to the country.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: All people who are respected by others are people who contribute to the country. 
@@ -151,7 +142,7 @@ FOL: ContributeToCountry(james)
 </EVALUATE>
 
 Example 5:
-<PREMISES>
+<SENTENCES>
 No songs are visual.
 All folk songs are songs.
 All videos are visual.
@@ -159,10 +150,8 @@ All movies are videos.
 All sci-fi movies are movies.
 Inception is a sci-fi movie.
 Mac is neither a folk song nor a sci-fi movie.
-</PREMISES>
-<CONCLUSION>
 Inception is a folk song.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: No songs are visual.
@@ -184,17 +173,15 @@ FOL: FolkSong(inception)
 </EVALUATE>
 
 Example 6:
-<PREMISES>
+<SENTENCES>
 Every chef can cook.
 Some people who aren't chefs can cook.
 People who cook can make scrambled eggs and pasta.
 If someone can make cookies and muffins, they are a baker.
 Bakers who can also make scrambled eggs can make a good breakfast.
 Luke can make cookies, scrambled eggs, and muffins, but not pasta.
-</PREMISES>
-<CONCLUSION>
 Luke can make a good breakfast.
-</CONCLUSION>
+</SENTENCES>
 
 <EVALUATE>
 TEXT: Every chef can cook.
@@ -215,28 +202,16 @@ FOL: MakeGoodBreakfast(luke)
 
 ### Question:
 
-Here are the following premises and conclusion you need to evaluate:
-<PREMISES>
+Here are the following sentences you need to translate:
+<SENTENCES>
 {premises}
-</PREMISES>
-<CONCLUSION>
 {conclusion}
-</CONCLUSION>
+</SENTENCES>
 
-Start your response with "<EVALUATE>". For each sentence in the premise/conclusion, write "TEXT:" and the sentence and "FOL:" with the FOL translation of the sentence. End your answer with "</EVALUATE>".\
+Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TEXT:" and the sentence and "FOL:" with the FOL translation of the sentence. End your answer with "</EVALUATE>".\
 """
             case _:
                 raise ValueError(f'Prompt format "{prompt_format}" does not exist')
-
-    def extract_fol_strings(self, text: str):
-        lines = text.split("\n")
-        fol_lines = [line[5:] for line in lines if "FOL:" in line]
-        return fol_lines
-
-    def convert_fol_exps(self, fol_strings: list[str]):
-        tlp = LogicParser()
-        fol_exps = [tlp.parse(fol_string) for fol_string in fol_strings]
-        return fol_exps
 
     def answer(
         self,
@@ -276,22 +251,62 @@ Start your response with "<EVALUATE>". For each sentence in the premise/conclusi
         ]
         return b_generated_results
 
-    def parse(self, b_generated_results: list[list[str]]):
-        b_proved_results = []
-        for generated_result in b_generated_results:
-            index = generated_result["index"]
-            k_responses = generated_result["responses"]
-            fol_results = {
-                "index": index,
-                "responses": [],
-            }
-            for response in k_responses:
-                try:
-                    fol_strings = self.extract_fol_strings(response["generated_text"])
-                    fol_exps = self.convert_fol_exps(fol_strings)
-                    result = self.prover.prove(fol_exps[-1], fol_exps[:-1])
-                    fol_results["responses"].append(result)
-                except Exception:
-                    fol_results["responses"].append("Error")
-            b_proved_results.append(fol_results)
-        return b_proved_results
+    # def parse(self, b_generated_results: list[list[str]]):
+    #     b_proved_results = []
+    #     for generated_result in b_generated_results:
+    #         index = generated_result["index"]
+    #         k_responses = generated_result["responses"]
+    #         fol_results = {
+    #             "index": index,
+    #             "responses": [],
+    #         }
+    #         for response in k_responses:
+    #             try:
+    #                 fol_strings = self.extract_fol_strings(response["generated_text"])
+    #                 fol_exps = self.convert_fol_exps(fol_strings)
+    #                 result = self.prover.prove(fol_exps[-1], fol_exps[:-1])
+    #                 fol_results["responses"].append(result)
+    #             except Exception:
+    #                 fol_results["responses"].append("Error")
+    #         b_proved_results.append(fol_results)
+    #     return b_proved_results
+
+    @staticmethod
+    def _extract_fol_strings(text: str):
+        lines = text.split("\n")
+        fol_lines = [line[5:] for line in lines if "FOL:" in line]
+        return fol_lines
+
+    @staticmethod
+    def _convert_fol_exps(fol_strings_premises: list[str], fol_string_conclusion: str):
+        tlp = LogicParser()
+        fol_string_not_conclusion = f"-({fol_string_conclusion})"
+        fol_exps_premises = [tlp.parse(fol_string) for fol_string in fol_strings_premises]
+        fol_exp_conclusion = tlp.parse(fol_string_conclusion)
+        fol_exp_not_conclusion = tlp.parse(fol_string_not_conclusion)
+        return fol_exps_premises, fol_exp_conclusion, fol_exp_not_conclusion
+    
+    @staticmethod
+    def _parse(text: str):
+        try:
+            fol_strings = LincModel._extract_fol_strings(text)
+            fol_strings_premises = fol_strings[:-1]
+            fol_string_conclusion = fol_strings[-1]
+            fol_exps_premises, fol_exp_conclusion, fol_exp_not_conclusion = LincModel._convert_fol_exps(fol_strings_premises, fol_string_conclusion)
+            prover = Prover9()
+            result = prover.prove(fol_exp_conclusion, fol_exps_premises)
+            notResult = prover.prove(fol_exp_not_conclusion, fol_exps_premises)
+            if result == notResult:
+                return "Uncertain"
+            else:
+                return "True" if result else "False"
+        except Exception:
+            return "Error"
+        
+    @staticmethod
+    def parse(texts: list[str]):
+        results = [LincModel._parse(text) for text in texts]
+        counter = Counter(results)
+        value, count = counter.most_common()[0]
+        return value
+        
