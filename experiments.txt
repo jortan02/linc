@@ -7,7 +7,7 @@ sbatch run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "naiv
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-1B-Instruct" --model_choice "linc" --dataset_name "folio" --batch_size 2
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-3B-Instruct" --model_choice "linc" --dataset_name "folio" --batch_size 2
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.1-8B-Instruct" --model_choice "linc" --dataset_name "folio" --batch_size 2
-sbatch --gres=gpu:a100:2 --time=12:00:00 run.sh --model_name "meta-llama/Llama-2-7b-chat-hf" --model_choice "linc" --dataset_name "folio" --batch_size 2
+sbatch --gres=gpu:a100:2 --time=2:00:00 run.sh --model_name "meta-llama/Llama-2-7b-chat-hf" --model_choice "linc" --dataset_name "folio" --batch_size 2
 sbatch --gres=gpu:a100:3 --time=12:00:00 run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "linc" --dataset_name "folio" --batch_size 1
 
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-1B-Instruct" --model_choice "cot" --dataset_name "folio" --batch_size 2
@@ -26,8 +26,8 @@ sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-1B-Instruct" --m
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-3B-Instruct" --model_choice "linc" --dataset_name "proofwriter" --batch_size 2
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.1-8B-Instruct" --model_choice "linc" --dataset_name "proofwriter" --batch_size 2
 sbatch --gres=gpu:a100:2 --time=12:00:00 run.sh --model_name "meta-llama/Llama-2-7b-chat-hf" --model_choice "linc" --dataset_name "proofwriter" --batch_size 2
-sbatch --gres=gpu:a100:3 --time=8:00:00 run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "linc" --dataset_name "proofwriter_p1" --batch_size 2
-sbatch --gres=gpu:a100:3 --time=8:00:00 run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "linc" --dataset_name "proofwriter_p2" --batch_size 2
+sbatch --gres=gpu:a100:3 --time=12:00:00 run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "linc" --dataset_name "proofwriter_p1" --batch_size 2
+sbatch --gres=gpu:a100:3 --time=12:00:00 run.sh --model_name "meta-llama/Llama-2-13b-chat-hf" --model_choice "linc" --dataset_name "proofwriter_p2" --batch_size 2
 
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-1B-Instruct" --model_choice "cot" --dataset_name "proofwriter" --batch_size 2
 sbatch --time=4:00:00 run.sh --model_name "meta-llama/Llama-3.2-3B-Instruct" --model_choice "cot" --dataset_name "proofwriter" --batch_size 2

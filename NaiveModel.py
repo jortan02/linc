@@ -156,6 +156,8 @@ Start your response with "<EVALUATE>". Then, write "True", "False", or "Uncertai
             chats.append(chat)
         batch_output = self.generator(
             chats,
+            num_beams=repetitions,
+            do_sample=True,
             max_new_tokens=max_new_tokens,
             num_return_sequences=repetitions,
             pad_token_id=self.generator.tokenizer.eos_token_id,

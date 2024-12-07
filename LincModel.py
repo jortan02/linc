@@ -7,6 +7,7 @@ from collections import Counter
 # import os
 # os.environ['PROVER9'] = '/uufs/chpc.utah.edu/common/home/u1283221/cs6964/linc/prover9/source/bin'
 
+
 class LincModel:
 
     def __init__(self, model_name: str, prompt_format: str = "FOLIO"):
@@ -218,7 +219,7 @@ Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TE
         premises_list: list[list[str]],
         conclusion_list: list[str],
         index_list: list[int],
-        repetitions: int = 5,
+        repetitions: int = 1,
         out_of_k: int = 5,
         max_new_tokens: int = 1024,
     ):
@@ -227,27 +228,26 @@ Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TE
             prompt = self.prompt_format.format(premises=premises, conclusion=conclusion)
             chat = [{"role": "user", "content": prompt}]
             chats.append(chat)
-        batch_output = self.generator(
-            chats,
-            max_new_tokens=max_new_tokens,
-            num_return_sequences=repetitions * out_of_k,
-            pad_token_id = self.generator.tokenizer.eos_token_id
-        )
+        responses = {}
+        for index in index_list:
+            responses[index.item()] = []
+        for _ in range(repetitions):
+            batch_output = self.generator(
+                chats,
+                num_beams=out_of_k,
+                do_sample=True,
+                max_new_tokens=max_new_tokens,
+                num_return_sequences=out_of_k,
+                pad_token_id=self.generator.tokenizer.eos_token_id,
+            )
+            for k_responses, index in zip(batch_output, index_list):
+                responses[index.item()].append([response["generated_text"][-1]["content"] for response in k_responses])
         b_generated_results = [
             {
                 "index": index.item(),
-                "responses": [
-                    [
-                        response["generated_text"][-1]["content"]
-                        for response in k_responses
-                    ]
-                    for k_responses in [
-                        rk_responses[index : index + out_of_k]
-                        for index in range(0, len(rk_responses), out_of_k)
-                    ]
-                ],
+                "responses": responses[index.item()],
             }
-            for rk_responses, index in zip(batch_output, index_list)
+            for index in index_list
         ]
         return b_generated_results
 
@@ -281,18 +281,22 @@ Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TE
     def _convert_fol_exps(fol_strings_premises: list[str], fol_string_conclusion: str):
         tlp = LogicParser()
         fol_string_not_conclusion = f"-({fol_string_conclusion})"
-        fol_exps_premises = [tlp.parse(fol_string) for fol_string in fol_strings_premises]
+        fol_exps_premises = [
+            tlp.parse(fol_string) for fol_string in fol_strings_premises
+        ]
         fol_exp_conclusion = tlp.parse(fol_string_conclusion)
         fol_exp_not_conclusion = tlp.parse(fol_string_not_conclusion)
         return fol_exps_premises, fol_exp_conclusion, fol_exp_not_conclusion
-    
+
     @staticmethod
     def _parse(text: str):
         try:
             fol_strings = LincModel._extract_fol_strings(text)
             fol_strings_premises = fol_strings[:-1]
             fol_string_conclusion = fol_strings[-1]
-            fol_exps_premises, fol_exp_conclusion, fol_exp_not_conclusion = LincModel._convert_fol_exps(fol_strings_premises, fol_string_conclusion)
+            fol_exps_premises, fol_exp_conclusion, fol_exp_not_conclusion = (
+                LincModel._convert_fol_exps(fol_strings_premises, fol_string_conclusion)
+            )
             prover = Prover9()
             result = prover.prove(fol_exp_conclusion, fol_exps_premises)
             notResult = prover.prove(fol_exp_not_conclusion, fol_exps_premises)
@@ -302,11 +306,10 @@ Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TE
                 return "True" if result else "False"
         except Exception:
             return "Error"
-        
+
     @staticmethod
     def parse(texts: list[str]):
         results = [LincModel._parse(text) for text in texts]
         counter = Counter(results)
         value, count = counter.most_common()[0]
         return value
-        
