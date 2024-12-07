@@ -15,6 +15,7 @@ dependencies:
   - tqdm
   - nltk
   - pip
+  - matplotlib
   - pip:
       - guidance
       - ipykernel
