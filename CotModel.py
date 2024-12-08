@@ -200,9 +200,13 @@ Start your response with "<EVALUATE>". Then, write "Let's think step by step." T
 
     @staticmethod
     def parse(text: str):
-        answer = re.findall(r"ANSWER:(.*?)</EVALUATE>", text, re.DOTALL)
-        answer = answer[0].strip() if len(answer) > 0 else ""
-        if answer not in ["True", "False", "Uncertain"]:
-            return "Error"
+        answer = re.findall(r"ANSWER:(.*)", text, re.DOTALL)
+        answer = answer[-1].strip().lower() if len(answer) > 0 else ""
+        if "true" in answer:
+            return "True"
+        elif "false" in answer:
+            return "False"
+        elif "uncertain" in answer:
+            return "Uncertain"
         else:
-            return answer
+            return "Error"

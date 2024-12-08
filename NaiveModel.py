@@ -2,6 +2,7 @@ import torch
 from transformers import pipeline
 import re
 
+
 class NaiveModel:
 
     def __init__(self, model_name: str, prompt_format: str = "FOLIO"):
@@ -176,9 +177,13 @@ Start your response with "<EVALUATE>". Then, write "True", "False", or "Uncertai
 
     @staticmethod
     def parse(text: str):
-        answer = re.findall(r"<EVALUATE>(.*?)</EVALUATE>", text, re.DOTALL)
-        answer = answer[0].strip() if len(answer) > 0 else ""
-        if answer not in ["True", "False", "Uncertain"]:
-            return "Error"
+        answer = re.findall(r"<EVALUATE>(.*)", text, re.DOTALL)
+        answer = answer[-1].strip().lower() if len(answer) > 0 else ""
+        if "true" in answer:
+            return "True"
+        elif "false" in answer:
+            return "False"
+        elif "uncertain" in answer:
+            return "Uncertain"
         else:
-            return answer
+            return "Error"

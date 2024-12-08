@@ -251,26 +251,6 @@ Start your response with "<EVALUATE>". For each sentence in SENTENCES, write "TE
         ]
         return b_generated_results
 
-    # def parse(self, b_generated_results: list[list[str]]):
-    #     b_proved_results = []
-    #     for generated_result in b_generated_results:
-    #         index = generated_result["index"]
-    #         k_responses = generated_result["responses"]
-    #         fol_results = {
-    #             "index": index,
-    #             "responses": [],
-    #         }
-    #         for response in k_responses:
-    #             try:
-    #                 fol_strings = self.extract_fol_strings(response["generated_text"])
-    #                 fol_exps = self.convert_fol_exps(fol_strings)
-    #                 result = self.prover.prove(fol_exps[-1], fol_exps[:-1])
-    #                 fol_results["responses"].append(result)
-    #             except Exception:
-    #                 fol_results["responses"].append("Error")
-    #         b_proved_results.append(fol_results)
-    #     return b_proved_results
-
     @staticmethod
     def _extract_fol_strings(text: str):
         lines = text.split("\n")
