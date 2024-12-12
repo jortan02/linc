@@ -16,6 +16,7 @@ dependencies:
   - nltk
   - pip
   - matplotlib
+  - scikit-learn
   - pip:
       - guidance
       - ipykernel
